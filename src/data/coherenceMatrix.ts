@@ -224,7 +224,196 @@ export const MOUNTAIN_COHERENCE_MATRIX: CoherenceSetting[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'backcountry-bowl',
+    category: 'off-piste',
+    locationName: 'High Alpine Bowl (Hike-to Terrain)',
+    defaultWeather: '10°F (-12°C), high winds, low visibility',
+    logistics: 'Complex extraction requiring rope rescue and avalanche mitigation, delayed ALS intercept',
+    patientArchetypes: [
+      {
+        ageRange: [20, 45],
+        genders: ['Male', 'Female'],
+        activities: ['Backcountry skier', 'Mountaineer'],
+        demeanors: ['Lethargic, shivering violently, confused', 'Gasping for air, cyanotic lips']
+      }
+    ],
+    compatibleMechanisms: [
+      'Caught in a small sluff avalanche, buried chest-deep for 20 minutes',
+      'Exhaustion and rapid ascent without proper acclimatization'
+    ],
+    compatiblePathologies: [
+      {
+        title: 'Severe Hypothermia and Mild Frostbite',
+        difficulty: 'Critical',
+        primary: 'Moderate to Severe Hypothermia (core temp ~86°F)',
+        secondary: 'Superficial frostbite on nose and fingertips',
+        mustDo: [
+          'Immediate scene size-up for secondary avalanche hazards',
+          'Handle patient extremely gently to prevent ventricular fibrillation',
+          'Remove wet clothing and package in a dry multi-layer vapor barrier (hypothermia wrap)',
+          'Apply gentle active external warming to thorax/groin only',
+          'Immediate rapid transport'
+        ],
+        criticalFails: [
+          'Allowing the patient to walk or exert themselves',
+          'Rubbing the frostbitten areas',
+          'Rough handling causing cardiac arrest'
+        ]
+      },
+      {
+        title: 'High Altitude Pulmonary Edema (HAPE)',
+        difficulty: 'Challenging',
+        primary: 'Non-cardiogenic pulmonary edema from rapid ascent to 12,000 ft',
+        secondary: 'Early signs of High Altitude Cerebral Edema (HACE) (ataxia)',
+        mustDo: [
+          'Assess lung sounds and oxygen saturation',
+          'Immediate administration of high-flow oxygen',
+          'Keep patient warm and seated upright (position of comfort)',
+          'Rapid descent to lower elevation'
+        ],
+        criticalFails: [
+          'Leaving the patient at altitude to "wait it out"',
+          'Having the patient ski down on their own',
+          'Failing to recognize respiratory distress as HAPE rather than pneumonia'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'lodge-cafeteria-anaphylaxis',
+    category: 'base-lodge',
+    locationName: 'Mid-Mountain Lodge Restaurant',
+    defaultWeather: 'Indoor, crowded dining area (65°F)',
+    logistics: 'Direct snowmobile/toboggan access, indoor environment',
+    patientArchetypes: [
+      {
+        ageRange: [12, 35],
+        genders: ['Male', 'Female'],
+        activities: ['Eating lunch mid-ski day'],
+        demeanors: ['Panicked, clutching throat, wheezing loudly', 'Flushed skin, hives, dizzy']
+      }
+    ],
+    compatibleMechanisms: [
+      'Accidental ingestion of a food allergen (e.g., peanuts) in a brownie',
+      'Unknown allergic reaction setting in rapidly after a meal'
+    ],
+    compatiblePathologies: [
+      {
+        title: 'Severe Anaphylactic Shock',
+        difficulty: 'Challenging',
+        primary: 'Systemic anaphylaxis with airway compromise (stridor) and distributive shock (BP 80/50)',
+        secondary: 'Widespread urticaria (hives)',
+        mustDo: [
+          'Rapid recognition of systemic allergic reaction (involving 2+ body systems)',
+          'Assess airway and lung sounds (wheezing/stridor)',
+          'Assist with or administer Epinephrine Auto-Injector (0.3 mg IM in lateral thigh)',
+          'Provide high-flow oxygen and monitor for need of second Epi dose after 5-15 mins',
+          'Immediate ALS dispatch for advanced airway management'
+        ],
+        criticalFails: [
+          'Delaying epinephrine administration while looking for antihistamines',
+          'Administering an adult epi-pen to a small child without checking dose',
+          'Assuming the patient just has a mild allergic reaction when hypotension is present'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'base-area-stroke',
+    category: 'base-lodge',
+    locationName: 'Ticket Office / Base Area Plaza',
+    defaultWeather: '32°F (0°C), sunny and calm',
+    logistics: 'Ambulance can pull up directly to the plaza',
+    patientArchetypes: [
+      {
+        ageRange: [60, 85],
+        genders: ['Male', 'Female'],
+        activities: ['Purchasing lift tickets', 'Waiting for family members'],
+        demeanors: ['Confused, slurred speech, drooping face on one side']
+      }
+    ],
+    compatibleMechanisms: [
+      'Sudden onset of neurological deficits while standing in line'
+    ],
+    compatiblePathologies: [
+      {
+        title: 'Acute Ischemic Stroke',
+        difficulty: 'Standard',
+        primary: 'Acute ischemic stroke in the middle cerebral artery territory',
+        secondary: 'None',
+        mustDo: [
+          'Perform a Cincinnati Prehospital Stroke Scale (CPSS) or FAST exam',
+          'Establish the exact time of onset (Time Last Known Normal)',
+          'Check blood glucose to rule out hypoglycemia mimicking a stroke',
+          'Minimize on-scene time ("Load and Go") and notify receiving hospital of a "Stroke Alert"'
+        ],
+        criticalFails: [
+          'Failing to ask about the time last known normal',
+          'Administering aspirin or anything by mouth to a patient with a suspected stroke',
+          'Failing to check blood glucose'
+        ]
+      },
+      {
+        title: 'Hemorrhagic Shock from Ruptured Peptic Ulcer / GI Bleed',
+        difficulty: 'Critical',
+        primary: 'Massive upper gastrointestinal bleed (vomiting coffee-ground emesis)',
+        secondary: 'Decompensated hypovolemic shock (HR 135, BP 70/40, pale/diaphoretic)',
+        mustDo: [
+          'BSI with emphasis on avoiding contact with emesis',
+          'Manage airway and prepare suction if available',
+          'Position patient in shock position (supine) if airway is patent, or recovery position if vomiting',
+          'Provide high-flow oxygen to maximize delivery to remaining red blood cells',
+          'Rapid transport and ALS intercept for fluid resuscitation'
+        ],
+        criticalFails: [
+          'Failing to recognize profound shock based on pale skin, tachycardia, and hypotension',
+          'Allowing patient to sit upright when profoundly hypotensive',
+          'Delaying transport for prolonged secondary assessment'
+        ]
+      }
+    ]
+  },
+  {
+    id: 'tree-well-suffocation',
+    category: 'off-piste',
+    locationName: 'Deep Powder Glades',
+    defaultWeather: '15°F (-9°C), heavy snowfall, deep fresh powder',
+    logistics: 'Difficult extraction, deep snow, requires multiple patrollers for digging',
+    patientArchetypes: [
+      {
+        ageRange: [18, 40],
+        genders: ['Male', 'Female'],
+        activities: ['Skiing deep powder through tight trees'],
+        demeanors: ['Unresponsive', 'Gasping, panicked, severely hypoxic']
+      }
+    ],
+    compatibleMechanisms: [
+      'Fell head-first into a deep tree well, buried under snow for 10 minutes'
+    ],
+    compatiblePathologies: [
+      {
+        title: 'Snow Immersion Asphyxiation and Cardiac Arrest',
+        difficulty: 'Critical',
+        primary: 'Hypoxia-induced cardiac arrest following snow burial',
+        secondary: 'Mild hypothermia',
+        mustDo: [
+          'Immediate scene safety and extrication from tree well',
+          'Check pulse and breathing simultaneously (max 10 seconds)',
+          'Initiate high-quality CPR immediately (focus on oxygenation/ventilations as cause is hypoxic)',
+          'Attach AED as soon as available',
+          'Prepare for prolonged resuscitation and rapid transport'
+        ],
+        criticalFails: [
+          'Failing to manage the airway effectively in a hypoxic arrest',
+          'Delaying CPR to fully package the patient in the toboggan',
+          'Failing to request ALS immediately'
+        ]
+      }
+    ]
   }
+
 ];
 
 export function getRandomScenarioSkeleton(): {

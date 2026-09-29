@@ -36,6 +36,12 @@ export const OEC_DOMAINS: OECDomain[] = [
     name: 'Domain 6: Outdoor Special Operations',
     chapters: [34, 35, 36, 37, 38],
     description: 'Toboggan handling and packaging, Chairlift evacuation, Mass-Casualty Incidents (START Triage), and Mountain search/rescue.'
+  },
+  {
+    id: 'anatomy',
+    name: 'Domain 7: Anatomy',
+    chapters: [2],
+    description: 'Anatomical terms, body systems, and major bones (superior/inferior, skeletal structure).'
   }
 ];
 
