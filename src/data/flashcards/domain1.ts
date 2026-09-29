@@ -66,14 +66,6 @@ export const DOMAIN_1_FLASHCARDS: Flashcard[] = [
     "tags": ["key-term", "legal", "ch1"]
   },
   {
-    "id": "kt-ch1-09",
-    "chapter": 1,
-    "domain": "Domain 1: Foundations & Assessment",
-    "front": "Ethics",
-    "back": "The science (study) of morality or behavior that defines what is “good” or “right.”",
-    "tags": ["key-term", "ethics", "ch1"]
-  },
-  {
     "id": "kt-ch1-10",
     "chapter": 1,
     "domain": "Domain 1: Foundations & Assessment",
@@ -192,22 +184,6 @@ export const DOMAIN_1_FLASHCARDS: Flashcard[] = [
     "front": "Outdoor Emergency Care (OEC)",
     "back": "A course of medical instruction developed and taught by the National Ski Patrol.",
     "tags": ["key-term", "oec", "ski-patrol", "ch1"]
-  },
-  {
-    "id": "kt-ch1-25",
-    "chapter": 1,
-    "domain": "Domain 1: Foundations & Assessment",
-    "front": "Prehospital care",
-    "back": "Any medical care rendered by trained personnel prior to arrival at a hospital.",
-    "tags": ["key-term", "medical", "oec", "ch1"]
-  },
-  {
-    "id": "kt-ch1-26",
-    "chapter": 1,
-    "domain": "Domain 1: Foundations & Assessment",
-    "front": "Refresher",
-    "back": "Annual required continuing education training, usually given each year in the fall, that covers one-third of topics taught in the OEC curriculum.",
-    "tags": ["key-term", "oec", "training", "ch1"]
   },
   {
     "id": "kt-ch1-27",

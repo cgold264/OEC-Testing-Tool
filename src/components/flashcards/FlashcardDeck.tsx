@@ -13,7 +13,8 @@ import {
   Trophy,
   Layers,
   Mountain,
-  Snowflake
+  Snowflake,
+  Shuffle
 } from 'lucide-react';
 
 export const FlashcardDeck: React.FC = () => {
@@ -22,20 +23,30 @@ export const FlashcardDeck: React.FC = () => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [progress, setProgress] = useState<FlashcardProgress>(Storage.getFlashcardProgress());
 
+  const [shuffleSeed, setShuffleSeed] = useState(0);
+
   // Filter deck based on selected domain
   const filteredCards = useMemo(() => {
-    let pool = SAMPLE_FLASHCARDS;
+    let pool = [...SAMPLE_FLASHCARDS];
 
     // Filter by domain or review-only
     if (selectedDomain === 'review-only') {
-      return pool.filter((c) => progress.reviewIds.includes(c.id));
+      pool = pool.filter((c) => progress.reviewIds.includes(c.id));
+    } else if (selectedDomain !== 'all') {
+      pool = pool.filter((c) => c.domain === selectedDomain);
     }
-    if (selectedDomain !== 'all') {
-      return pool.filter((c) => c.domain === selectedDomain);
+
+    if (shuffleSeed > 0) {
+      const shuffled = [...pool];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      pool = shuffled;
     }
 
     return pool;
-  }, [selectedDomain, progress.reviewIds]);
+  }, [selectedDomain, progress.reviewIds, shuffleSeed]);
 
   const activeCard = filteredCards[currentIndex];
 
@@ -118,6 +129,18 @@ export const FlashcardDeck: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-2 w-full sm:w-auto">
+          <button
+            onClick={() => {
+              setShuffleSeed(prev => prev + 1);
+              setCurrentIndex(0);
+              setIsFlipped(false);
+            }}
+            title="Shuffle Deck"
+            className="p-2 border border-sky-200 rounded-xl hover:bg-sky-50 text-sky-600 transition shadow-sm bg-white/95"
+          >
+            <Shuffle className="w-4 h-4" />
+          </button>
+
           <div className="relative flex-1 sm:w-64">
             <Filter className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-sky-600" />
             <select
