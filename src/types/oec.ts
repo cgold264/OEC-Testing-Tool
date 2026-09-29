@@ -47,6 +47,7 @@ export interface ScenarioPatientProfile {
   gender: string;
   activity: string;
   demeanor: string;
+  position?: string;
 }
 
 export interface ScenarioInitialVitals {

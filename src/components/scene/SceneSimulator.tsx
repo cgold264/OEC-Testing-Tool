@@ -128,7 +128,8 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
         age: skeleton.patient.age,
         gender: skeleton.patient.gender,
         activity: skeleton.patient.activity,
-        demeanor: skeleton.patient.demeanor
+        demeanor: skeleton.patient.demeanor,
+        position: 'lying supine on the snowpack, motionless with skis released'
       },
       hiddenPathology: {
         primary: skeleton.pathology.primary,
@@ -169,11 +170,15 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
   const initializeScenarioWithCard = (card: ScenarioCard) => {
     setScenario(card);
     setDiscoveredVitals({ revealedNotes: [] });
+    const positionText = card.patientProfile.position
+      ? `The patient is found ${card.patientProfile.position}.`
+      : 'The patient is found down on the snow.';
+
     setMessages([
       {
         id: 'msg-0',
         role: 'system',
-        content: `🏔️ SCENARIO INITIALIZED\n${card.dispatchCall}\n\nWeather: ${card.weather}\nTerrain & Logistics: ${card.logistics}\n\nYou have arrived on scene. The candidate drives the evaluation.`,
+        content: `🏔️ SCENARIO INITIALIZED\n${card.dispatchCall}\n\nArrival: You arrive at ${card.location}. ${positionText}\n\nThe candidate drives the evaluation.`,
         timestamp: Date.now()
       }
     ]);
@@ -285,19 +290,19 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
   return (
     <div className="max-w-4xl mx-auto px-4 py-6 pb-24 md:pb-12 flex flex-col h-[calc(100vh-5rem)]">
       {/* Top Bar / Category Selector */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 pb-3 border-b border-sky-200">
+      <div className="flex items-center justify-between gap-3 mb-3 pb-2 sm:mb-4 sm:pb-3 border-b border-sky-200">
         <div>
-          <div className="flex items-center gap-2 mb-1">
+          <div className="flex items-center gap-2 mb-0.5 sm:mb-1">
             <span className="text-[10px] font-extrabold uppercase tracking-wider text-sky-800 bg-sky-100/90 border border-sky-300 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-sm">
               <Snowflake className="w-3 h-3 text-sky-600" />
               Ski Patrol Incident Dispatch
             </span>
           </div>
-          <h2 className="text-xl sm:text-2xl font-black text-slate-900 flex items-center gap-2 tracking-tight">
-            <Mountain className="w-6 h-6 text-red-600" />
+          <h2 className="text-lg sm:text-2xl font-black text-slate-900 flex items-center gap-2 tracking-tight">
+            <Mountain className="w-5 h-5 sm:w-6 sm:h-6 text-red-600" />
             Mountain Scene Simulator
           </h2>
-          <p className="text-xs text-slate-500">
+          <p className="text-xs text-slate-500 hidden sm:block">
             Reactive proctor & patient actor with deterministic mountain coherence guardrails
           </p>
         </div>
@@ -310,7 +315,7 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
               generateNewScenario(e.target.value);
             }}
             disabled={isGenerating}
-            className="text-xs py-2 px-3 bg-white/95 border border-sky-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 font-semibold text-slate-700"
+            className="hidden sm:block text-xs py-2 px-3 bg-white/95 border border-sky-200 rounded-xl shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 font-semibold text-slate-700"
           >
             <option value="random">🎲 Random Mountain Incident</option>
             {MOUNTAIN_COHERENCE_MATRIX.map((s) => (
@@ -324,14 +329,14 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
             onClick={() => generateNewScenario(selectedSettingId)}
             disabled={isGenerating}
             title="Generate New Scenario"
-            className="flex items-center gap-1 px-3.5 py-2 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl text-xs font-bold shadow-md hover:from-red-700 hover:to-red-800 transition disabled:opacity-50"
+            className="flex items-center gap-1 px-3 sm:px-3.5 py-2 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl text-xs font-bold shadow-md hover:from-red-700 hover:to-red-800 transition disabled:opacity-50 shrink-0"
           >
             {isGenerating ? (
               <Loader2 className="w-3.5 h-3.5 animate-spin" />
             ) : (
               <RotateCcw className="w-3.5 h-3.5" />
             )}
-            New Case
+            <span>New Case</span>
           </button>
         </div>
       </div>
@@ -419,13 +424,15 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
       {/* Active Scenario Content */}
       {scenario && !isGenerating && (
         <>
-          {/* Patrol Clipboard */}
-          <PatrolClipboard
-            scenario={scenario}
-            vitals={discoveredVitals}
-            isOpen={clipboardOpen}
-            onToggle={() => setClipboardOpen((p) => !p)}
-          />
+          {/* Patrol Clipboard (Hidden on mobile to save vertical space) */}
+          <div className="hidden sm:block">
+            <PatrolClipboard
+              scenario={scenario}
+              vitals={discoveredVitals}
+              isOpen={clipboardOpen}
+              onToggle={() => setClipboardOpen((p) => !p)}
+            />
+          </div>
 
           {/* Chat Messages Stream */}
           <div className="flex-1 frost-card rounded-3xl p-4 sm:p-6 shadow-md overflow-y-auto space-y-4 mb-4">

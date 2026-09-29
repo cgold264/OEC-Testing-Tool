@@ -64,6 +64,10 @@ SKELETON:
 - Must-Do Rubric: ${skeleton.pathology.mustDo.join('; ')}
 - Critical Fails: ${skeleton.pathology.criticalFails.join('; ')}
 
+CRITICAL GUIDELINES:
+1. "dispatchCall": Authentic, brief ski patrol radio dispatch call. Must ONLY state the reported location and dispatch reason (e.g. 'Dispatch to Patroller: Respond to Lower Peak Glades for an injured skier'). NEVER include vitals, medical diagnosis, symptoms, or evacuation logistics.
+2. "patientProfile.position": A clear description of strictly WHERE the patient was found and HOW they are physically positioned on scene upon arrival (e.g., 'lying supine on the snow with skis released', 'slumped on their left side against a tree in deep powder'). NEVER include vitals, injuries, medical diagnosis, or logistics.
+
 OUTPUT REQUIREMENT:
 Respond ONLY with a valid JSON object with the following exact keys and structure:
 {
@@ -73,12 +77,13 @@ Respond ONLY with a valid JSON object with the following exact keys and structur
   "location": "${skeleton.locationName}",
   "weather": "${skeleton.defaultWeather}",
   "logistics": "${skeleton.logistics}",
-  "dispatchCall": "Authentic ski patrol radio dispatch call describing incoming report",
+  "dispatchCall": "Authentic concise ski patrol radio dispatch call without vitals or logistics",
   "patientProfile": {
     "age": ${skeleton.patient.age},
     "gender": "${skeleton.patient.gender}",
     "activity": "${skeleton.patient.activity}",
-    "demeanor": "${skeleton.patient.demeanor}"
+    "demeanor": "${skeleton.patient.demeanor}",
+    "position": "How the patient was found positioned (e.g., supine in the snow, slumped against a tree)"
   },
   "hiddenPathology": {
     "primary": "${skeleton.pathology.primary}",

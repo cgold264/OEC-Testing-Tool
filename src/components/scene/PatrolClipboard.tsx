@@ -48,15 +48,18 @@ export const PatrolClipboard: React.FC<PatrolClipboardProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
             <div className="bg-white/95 p-3 rounded-xl border border-sky-200 shadow-sm">
               <span className="text-sky-700 font-bold block text-[10px] uppercase tracking-wider flex items-center gap-1 mb-0.5">
-                <Mountain className="w-3 h-3 text-sky-500" /> Terrain & Location
+                <Mountain className="w-3 h-3 text-sky-500" /> Location & Position
               </span>
-              <span className="text-slate-800 font-semibold">{scenario.location}</span>
+              <span className="text-slate-800 font-semibold block">{scenario.location}</span>
+              {scenario.patientProfile.position && (
+                <span className="text-slate-600 block text-[11px] mt-1 font-normal">{scenario.patientProfile.position}</span>
+              )}
             </div>
             <div className="bg-white/95 p-3 rounded-xl border border-sky-200 shadow-sm">
               <span className="text-sky-700 font-bold block text-[10px] uppercase tracking-wider flex items-center gap-1 mb-0.5">
-                <Snowflake className="w-3 h-3 text-sky-500" /> Weather & Evacuation
+                <Snowflake className="w-3 h-3 text-sky-500" /> Weather Condition
               </span>
-              <span className="text-slate-800 font-medium">{scenario.weather} &bull; {scenario.logistics}</span>
+              <span className="text-slate-800 font-medium">{scenario.weather}</span>
             </div>
           </div>
 
