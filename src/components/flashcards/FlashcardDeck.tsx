@@ -218,38 +218,45 @@ export const FlashcardDeck: React.FC = () => {
           </div>
 
           {/* Controls */}
-          <div className="flex items-center justify-between gap-4 max-w-xl mx-auto">
-            <button
-              onClick={handlePrev}
-              disabled={currentIndex === 0}
-              className="flex items-center gap-1 px-4 py-2.5 text-xs sm:text-sm font-bold border border-sky-200 rounded-xl bg-white shadow-sm text-slate-700 hover:bg-sky-50 disabled:opacity-40 disabled:cursor-not-allowed transition"
-            >
-              <ChevronLeft className="w-4 h-4" /> Prev
-            </button>
-
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4 max-w-xl mx-auto w-full">
             {/* Quick Assessment Buttons */}
-            <div className="flex gap-2">
+            <div className="grid grid-cols-2 gap-2 w-full sm:w-auto order-1 sm:order-2">
               <button
                 onClick={() => handleMark('review')}
-                className="flex items-center gap-1.5 px-4 py-2.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-100 text-amber-900 border border-amber-300 hover:bg-amber-200 transition active:scale-95 shadow-sm"
+                className="flex items-center justify-center gap-1.5 px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-bold rounded-xl bg-amber-100 text-amber-900 border border-amber-300 hover:bg-amber-200 transition active:scale-95 shadow-sm"
               >
-                <X className="w-4 h-4 text-amber-700" /> Need Review
+                <X className="w-4 h-4 text-amber-700 shrink-0" />
+                <span>Need Review</span>
               </button>
               <button
                 onClick={() => handleMark('mastered')}
-                className="flex items-center gap-1.5 px-4 py-2.5 text-xs sm:text-sm font-bold rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-700 text-white shadow-md hover:from-emerald-700 hover:to-emerald-800 transition active:scale-95"
+                className="flex items-center justify-center gap-1.5 px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-bold rounded-xl bg-gradient-to-r from-emerald-600 to-emerald-700 text-white shadow-md hover:from-emerald-700 hover:to-emerald-800 transition active:scale-95"
               >
-                <Check className="w-4 h-4" /> Mastered
+                <Check className="w-4 h-4 shrink-0" />
+                <span>Mastered</span>
               </button>
             </div>
 
-            <button
-              onClick={handleNext}
-              disabled={currentIndex === filteredCards.length - 1}
-              className="flex items-center gap-1 px-4 py-2.5 text-xs sm:text-sm font-bold border border-sky-200 rounded-xl bg-white shadow-sm text-slate-700 hover:bg-sky-50 disabled:opacity-40 disabled:cursor-not-allowed transition"
-            >
-              Next <ChevronRight className="w-4 h-4" />
-            </button>
+            {/* Navigation Buttons */}
+            <div className="flex items-center justify-between w-full sm:w-auto sm:contents gap-2 order-2 sm:order-none">
+              <button
+                onClick={handlePrev}
+                disabled={currentIndex === 0}
+                className="flex-1 sm:flex-none flex items-center justify-center gap-1 px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-bold border border-sky-200 rounded-xl bg-white shadow-sm text-slate-700 hover:bg-sky-50 disabled:opacity-40 disabled:cursor-not-allowed transition sm:order-1"
+              >
+                <ChevronLeft className="w-4 h-4 shrink-0" />
+                <span>Prev</span>
+              </button>
+
+              <button
+                onClick={handleNext}
+                disabled={currentIndex === filteredCards.length - 1}
+                className="flex-1 sm:flex-none flex items-center justify-center gap-1 px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-bold border border-sky-200 rounded-xl bg-white shadow-sm text-slate-700 hover:bg-sky-50 disabled:opacity-40 disabled:cursor-not-allowed transition sm:order-3"
+              >
+                <span>Next</span>
+                <ChevronRight className="w-4 h-4 shrink-0" />
+              </button>
+            </div>
           </div>
 
           {/* Keyboard tip */}
