@@ -178,14 +178,6 @@ export const DOMAIN_1_FLASHCARDS: Flashcard[] = [
     "tags": ["key-term", "legal", "negligence", "ch1"]
   },
   {
-    "id": "kt-ch1-24",
-    "chapter": 1,
-    "domain": "Domain 1: Foundations & Assessment",
-    "front": "Outdoor Emergency Care (OEC)",
-    "back": "A course of medical instruction developed and taught by the National Ski Patrol.",
-    "tags": ["key-term", "oec", "ski-patrol", "ch1"]
-  },
-  {
     "id": "kt-ch1-27",
     "chapter": 1,
     "domain": "Domain 1: Foundations & Assessment",

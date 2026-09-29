@@ -185,9 +185,7 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
   };
 
   // Start initial scenario on load
-  useEffect(() => {
-    generateNewScenario('random');
-  }, []);
+  // Removed auto-generation on mount
 
   // Parse discovered vitals from LLM assistant text
   const parseDiscoveredVitals = (text: string) => {
@@ -394,26 +392,30 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
             </p>
           </div>
           <div className="flex flex-wrap gap-2.5 justify-center pt-2">
-            <button
-              onClick={onOpenSettings}
-              className="px-4 py-2.5 bg-red-600 text-white rounded-xl text-xs sm:text-sm font-semibold hover:bg-red-700 transition flex items-center gap-1.5 shadow"
-            >
-              <Key className="w-4 h-4" />
-              Configure Groq API Key
-            </button>
+            {!Storage.getCustomApiKey() && (
+              <button
+                onClick={onOpenSettings}
+                className="px-4 py-2.5 bg-slate-100 text-slate-700 border border-slate-200 rounded-xl text-xs sm:text-sm font-semibold hover:bg-slate-200 transition flex items-center gap-1.5 shadow-sm"
+              >
+                <Key className="w-4 h-4" />
+                Configure Groq API Key
+              </button>
+            )}
+            
             <button
               onClick={() => generateNewScenario(selectedSettingId)}
-              className="px-4 py-2.5 bg-slate-900 text-white rounded-xl text-xs sm:text-sm font-semibold hover:bg-slate-800 transition flex items-center gap-1.5 shadow"
+              className="px-6 py-3 bg-red-600 text-white rounded-xl text-sm sm:text-base font-bold hover:bg-red-700 transition flex items-center gap-2 shadow-md hover:shadow-lg active:scale-95"
             >
-              <RotateCcw className="w-4 h-4" />
-              Retry Generation
+              <RotateCcw className="w-5 h-5" />
+              {errorMessage ? 'Retry Generation' : 'Begin Patrol Session'}
             </button>
+
             <button
               onClick={() => {
                 setErrorMessage(null);
                 initializeOfflineScenario(getRandomScenarioSkeleton());
               }}
-              className="px-4 py-2.5 bg-slate-100 text-slate-700 border border-slate-200 rounded-xl text-xs sm:text-sm font-medium hover:bg-slate-200 transition"
+              className="px-4 py-3 bg-slate-900 text-white border border-slate-700 rounded-xl text-xs sm:text-sm font-medium hover:bg-slate-800 transition shadow-sm active:scale-95"
             >
               Play Offline Practice Case
             </button>
