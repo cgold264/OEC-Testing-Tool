@@ -1,0 +1,211 @@
+interface Env {
+  GROQ_API_KEY?: string;
+  GROQ_MODEL?: string;
+  GEMINI_API_KEY?: string;
+  [key: string]: unknown;
+}
+
+interface RequestBody {
+  scenarioCard: {
+    id: string;
+    title: string;
+    location: string;
+    weather: string;
+    logistics: string;
+    dispatchCall: string;
+    patientProfile: {
+      age: number;
+      gender: string;
+      activity: string;
+      demeanor: string;
+    };
+    hiddenPathology: {
+      primary: string;
+      secondary?: string;
+      initialVitals: {
+        hr: number;
+        bp: string;
+        rr: number;
+        spo2: string;
+        skin: string;
+        loc: string;
+      };
+      physicalExam: {
+        headNeck: string;
+        chest: string;
+        abdomen: string;
+        pelvis: string;
+        extremities: string;
+        backSpine: string;
+      };
+      sampleHistory: {
+        signsSymptoms: string;
+        allergies: string;
+        medications: string;
+        pastHistory: string;
+        lastOralIntake: string;
+        eventsLeading: string;
+      };
+    };
+    scoringRubric: {
+      mustDo: string[];
+      criticalFails: string[];
+    };
+  };
+  messages: Array<{
+    role: 'user' | 'assistant';
+    content: string;
+  }>;
+  isEvaluating?: boolean;
+}
+
+export async function onRequestPost(context: { request: Request; env: Env }): Promise<Response> {
+  try {
+    const apiKey =
+      context.request.headers.get('x-groq-key') ||
+      context.request.headers.get('x-api-key') ||
+      context.request.headers.get('x-gemini-key') ||
+      context.env.GROQ_API_KEY ||
+      context.env.GEMINI_API_KEY ||
+      '';
+
+    if (!apiKey) {
+      return new Response(
+        JSON.stringify({
+          error:
+            'Missing Groq API Key. Please set GROQ_API_KEY in .dev.vars / Cloudflare Pages settings, or supply it in the app settings modal.'
+        }),
+        { status: 401, headers: { 'Content-Type': 'application/json' } }
+      );
+    }
+
+    const body: RequestBody = await context.request.json();
+    const { scenarioCard, messages, isEvaluating } = body;
+
+    if (!scenarioCard || !messages) {
+      return new Response(
+        JSON.stringify({ error: 'Missing scenarioCard or messages in request body' }),
+        { status: 400, headers: { 'Content-Type': 'application/json' } }
+      );
+    }
+
+    // Build the system facilitator instruction
+    let systemInstruction = `
+You are the official Outdoor Emergency Care (OEC) Practical Scenario Evaluator and Patient Actor.
+The user is an OEC candidate / ski patroller conducting a simulated field evaluation.
+
+SCENARIO GROUND TRUTH (DO NOT REVEAL UNLESS USER PERFORMS THE SPECIFIC EXAM):
+- Title: ${scenarioCard.title}
+- Location: ${scenarioCard.location}
+- Weather / Ambient: ${scenarioCard.weather}
+- Logistics: ${scenarioCard.logistics}
+- Patient: ${scenarioCard.patientProfile.age}yo ${scenarioCard.patientProfile.gender}, ${scenarioCard.patientProfile.activity}
+- Patient Demeanor: ${scenarioCard.patientProfile.demeanor}
+- Hidden Primary Injury/Condition: ${scenarioCard.hiddenPathology.primary}
+- Hidden Secondary Injury: ${scenarioCard.hiddenPathology.secondary || 'None'}
+- Baseline Vitals:
+  * HR: ${scenarioCard.hiddenPathology.initialVitals.hr} bpm
+  * BP: ${scenarioCard.hiddenPathology.initialVitals.bp} mmHg
+  * RR: ${scenarioCard.hiddenPathology.initialVitals.rr} /min
+  * SpO2: ${scenarioCard.hiddenPathology.initialVitals.spo2}
+  * Skin: ${scenarioCard.hiddenPathology.initialVitals.skin}
+  * LOC (AVPU): ${scenarioCard.hiddenPathology.initialVitals.loc}
+- Detailed Exam Findings:
+  * Head & Neck: ${scenarioCard.hiddenPathology.physicalExam.headNeck}
+  * Chest: ${scenarioCard.hiddenPathology.physicalExam.chest}
+  * Abdomen: ${scenarioCard.hiddenPathology.physicalExam.abdomen}
+  * Pelvis: ${scenarioCard.hiddenPathology.physicalExam.pelvis}
+  * Extremities: ${scenarioCard.hiddenPathology.physicalExam.extremities}
+  * Back & Spine: ${scenarioCard.hiddenPathology.physicalExam.backSpine}
+- SAMPLE History:
+  * S: ${scenarioCard.hiddenPathology.sampleHistory.signsSymptoms}
+  * A: ${scenarioCard.hiddenPathology.sampleHistory.allergies}
+  * M: ${scenarioCard.hiddenPathology.sampleHistory.medications}
+  * P: ${scenarioCard.hiddenPathology.sampleHistory.pastHistory}
+  * L: ${scenarioCard.hiddenPathology.sampleHistory.lastOralIntake}
+  * E: ${scenarioCard.hiddenPathology.sampleHistory.eventsLeading}
+- Required Actions (Rubric): ${scenarioCard.scoringRubric.mustDo.join('; ')}
+- Critical Fails: ${scenarioCard.scoringRubric.criticalFails.join('; ')}
+
+FACILITATOR OPERATING RULES:
+1. STRICT INFORMATION HIDING: You must NEVER volunteer symptoms, vitals, or injuries the candidate has not directly examined.
+   - If they say "I check scene safety", tell them the scene hazards and mechanism, but DO NOT tell them what is wrong with the patient.
+   - If they say "I check vitals", reveal the vitals clearly in format: [Pulse: ... | BP: ... | RR: ... | SpO2: ... | Skin: ...].
+   - If they palpate or inspect an area (e.g. "I palpate the chest"), reveal only what is felt/seen there.
+   - If they talk to the patient, speak in dialogue quotes matching the patient demeanor: "Patient: '...'".
+2. CONCISE & CLINICAL: Keep answers crisp (2-4 sentences). Do not lecture or give hints.
+3. ADHERE TO OEC PROTOCOLS: Reward BSI, manual c-spine stabilization, primary CAB/ABCDE, secondary DCAP-BTLS, and appropriate packaging/transport decisions.
+`;
+
+    if (isEvaluating) {
+      systemInstruction += `
+SPECIAL MODE: The candidate has finalized the scenario and called for transport/packaging.
+You must now switch fully to EVALUATOR DEBRIEF MODE.
+Provide a clear, structured OEC Debrief with:
+1. OVERALL GRADE: Pass or Fail
+2. STRENGTHS: Specific actions the candidate performed well (BSI, c-spine, primary assessment, timely vitals)
+3. MISSED CRITERIA / DELAYS: Anything from the Must-Do rubric that was skipped or delayed
+4. CRITICAL FAILS: Check if any critical fails were triggered
+5. CLINICAL SUMMARY: The true pathology and how the candidate handled it.
+`;
+    }
+
+    const groqMessages = [
+      { role: 'system', content: systemInstruction },
+      ...messages.map((m) => ({
+        role: m.role === 'user' ? 'user' : 'assistant',
+        content: m.content
+      }))
+    ];
+
+    const model =
+      context.request.headers.get('x-groq-model') ||
+      context.env.GROQ_MODEL ||
+      'openai/gpt-oss-120b';
+
+    const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`
+      },
+      body: JSON.stringify({
+        model,
+        messages: groqMessages,
+        temperature: isEvaluating ? 0.2 : 0.4,
+        max_tokens: 1200
+      })
+    });
+
+    if (!groqResponse.ok) {
+      const errText = await groqResponse.text();
+      let errMsg = `Groq API returned error ${groqResponse.status}`;
+      try {
+        const errObj = JSON.parse(errText);
+        errMsg = errObj.error?.message || errText;
+      } catch {
+        errMsg = errText;
+      }
+      return new Response(
+        JSON.stringify({ error: errMsg }),
+        { status: groqResponse.status, headers: { 'Content-Type': 'application/json' } }
+      );
+    }
+
+    const data = await groqResponse.json();
+    const replyText =
+      data.choices?.[0]?.message?.content ||
+      'No response received from facilitator.';
+
+    return new Response(
+      JSON.stringify({ reply: replyText }),
+      { status: 200, headers: { 'Content-Type': 'application/json' } }
+    );
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : String(err);
+    return new Response(
+      JSON.stringify({ error: `Internal server error: ${message}` }),
+      { status: 500, headers: { 'Content-Type': 'application/json' } }
+    );
+  }
+}

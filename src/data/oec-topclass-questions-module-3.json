@@ -1,0 +1,282 @@
+[
+  {
+    "id": "topclass-q-8136904",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A secondary assessment consists of which of the following steps? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Medical history, trauma exam, and vital signs",
+      "The on-going exam, detailed physical exam, and vital signs",
+      "Hands-on physical exam and vital signs",
+      "Applying an AICD, the on-going exam, and vital signs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198021",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Forming a general impression is done before which phase of patient assessment? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Primary assessment",
+      "Communication and documentation",
+      "Reassessment",
+      "Secondary assessment"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198042",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "If you have to clap your hands loudly in a patient's face to get some response, what letter is scored on AVPU? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "V",
+      "P",
+      "U",
+      "A"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198180",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "An easy way for an OEC technician to remember what to look for in assessing injuries in a trauma patient is the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "mnemonic OPQRST.",
+      "mnemonic APVU.",
+      "mnemonic DCAP-BTLS.",
+      "acronym SAMPLE."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198109",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A 44-year-old was on a ladder cutting limbs from a tree when they fell. Patient is found to be unresponsive with normal respirations. Their breathing is adequate at a rate of 12 per minute and their carotid pulse is strong at 88 per minute. During the primary assessment and initial management, which one of the following actions will the OEC technician attempt to complete? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Get a medical history from a family member",
+      "Perform a jaw-thrust maneuver to open the airway",
+      "Start positive pressure ventilation with a bag-valve mask",
+      "Place an oral airway and put a cervical collar on the patient"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198145",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "What letter of the OPQRST mnemonic reflects a medical emergency patient’s report that difficulty in breathing is worse while attempting to walk? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "R",
+      "P",
+      "O",
+      "Q"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198225",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following tasks is part of a secondary assessment? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Opening the airway",
+      "Checking for life-threatening bleeding",
+      "Inserting an OPA",
+      "Taking a blood pressure reading"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198175",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A secondary assessment (including vital signs) should take about how long? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "6–8 minutes",
+      "30 seconds",
+      "2–5 minutes",
+      "1 minute"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198052",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are by the side of a patient who is unresponsive and has a history of heart failure. When assessing the airway, which one of the following observations best indicates an open airway? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "You can hear normal respirations and see the chest rise and fall.",
+      "Patient has a pulse of 80 per minute.",
+      "You can see that their tongue has fallen back where it appears to be blocking the airway.",
+      "Their mouth is open and you can hear gurgling sounds."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198215",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A complete set of vitals is taken at the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "end of the secondary assessment.",
+      "during of the primary  assessment.",
+      "during the secondary assessment and during the reassessment.",
+      "end of the primary assessment."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198220",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are assessing an eight-month-old whose parent states has been vomiting for two days and not eating or drinking. When assessing the pulse in an infant, which site should you check first? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The radial artery",
+      "The femoral artery",
+      "The temporal artery",
+      "The brachial artery"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8136911",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following findings is a symptom? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "High blood pressure",
+      "A deep laceration",
+      "Hives resulting from an allergic reaction",
+      "Ringing in the ears"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198047",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which describes a patient scoring U on AVPU? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Lurches in response to loud noise",
+      "Moans when a painful stimulus is applied",
+      "Does not respond to pain",
+      "Jerks when a light shines directly at the pupil"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8136889",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Signs and symptoms can be identified using the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "DCAP-BTLS mnemonic.",
+      "AVPU mnemonic.",
+      "OPQRST mnemonic.",
+      "SAMPLE acronym."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198135",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "What letter in a SAMPLE interview indicates that a patient has a history of seizures? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "S",
+      "M",
+      "P",
+      "A"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198057",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "How should an OEC technician best determine the adequacy of a patient’s breathing during a primary assessment? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Assess the patient’s ability to raise their shoulders.",
+      "Look for the rise and fall of the patient’s chest.",
+      "Determine the patient’s mental status.",
+      "Compare the patient’s blood pressure and pulse rates."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197995",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following things does not indicate a possible safety issue during a scene size-up? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Ice or mud",
+      "ABCDs",
+      "Downed wires",
+      "Wild animals"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198170",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following actions should you take during a secondary assessment of a 45-year-old patient with a severe headache? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Reassess vital signs, open the airway, and obtain OPQRST information",
+      "Continue emergency care, obtain the chief complaint, and gather a SAMPLE history",
+      "Assess the head, reevaluate vital signs, and continue emergency care",
+      "Preform a physical exam and obtain vital signs"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198001",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You have been dispatched to an 89-year-old patient with an unspecified complaint. When assessing this patient, which one of the following will the OEC technician do as quickly as possible to develop a better understanding of the emergency? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Determine if the chief complaint is medical (NOI) or trauma related (MOI)",
+      "Obtain the patient’s vital signs and current medications",
+      "Contact medical direction for advice",
+      "Gather a medical history, including information on allergies"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8198079",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A chief complaint is defined as the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "findings from a SAMPLE interview.",
+      "primary reason the person is seeking medical care.",
+      "findings from a secondary survey.",
+      "findings from a primary survey."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  }
+]

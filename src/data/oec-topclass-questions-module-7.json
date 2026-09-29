@@ -1,0 +1,282 @@
+[
+  {
+    "id": "topclass-q-8195576",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "While you are putting wood into your wood stove, your hand comes in contact with the hot surface. Your body responds by pulling your hand away from the heat. How is this action accomplished? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "One or more skeletal muscles receive a signal from the brain to contract.",
+      "The smooth muscles in the arm automatically respond to heat.",
+      "Extension of the ligaments in the elbow joint pulls the lower arm up.",
+      "You use conscious thought to pull your hand from the heat."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202795",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are treating a patient who is complaining of moderate pain in the right knee. The knee is swollen, discolored, and flexed about 45 degrees. CMS is intact. How would you treat this patient? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Place the patient on a long spine board and transport to the aid room, where you can examine the injury more efficiently.",
+      "Splint the knee in the position found before moving the patient.",
+      "Straighten the injured knee and then immobilize it by attaching it to the other leg.",
+      "Apply a traction splint and straighten the knee until the pain is decreased."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8195206",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The inside layer of a joint capsule where cells make a viscous fluid for lubricating the joint is the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "cartilage.",
+      "fascia.",
+      "synovium.",
+      "callus."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202780",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A fracture that has three or more fragments is called a(n): Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "oblique fracture.",
+      "comminuted fracture.",
+      "impacted fracture.",
+      "pathologic fracture."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202709",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The finding that upon muscle contraction the active motion of a joint is reduced or lost suggests: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "torn cartilage.",
+      "a dislocation.",
+      "a ruptured tendon.",
+      "a ligament strain."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202714",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following statements indicates that an OEC technician has a good understanding of what a joint dislocation is? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“Patients with a joint dislocation experience very little pain.”",
+      "“A dislocation is a separation or displacement of the bones of a joint.”",
+      "“If a joint is dislocated, the patient can move it without pain.”",
+      "“A distal pulse is absent only in the case of a fracture.”"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202790",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You respond to a 9-year-old who was injured in the terrain park. They are complaining of pain in their right wrist. Upon examination, you note deformity and swelling of the right wrist, pinkness of the right hand, and a strong radial pulse. Which of the following actions would be part of the proper care for this child? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Massage the wrist gently to decrease the pain.",
+      "Maintain the wrist below the level of the heart to decrease swelling.",
+      "Straighten the wrist to promote blood flow to the hand.",
+      "Apply a cold pack to the wrist to reduce swelling."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202666",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following statements about musculoskeletal injuries is true? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "A dislocation occurs when a bone that forms part of a joint is broken.",
+      "A sprain is an injury to a joint that involves the stretching or tearing of ligaments.",
+      "Strains are injuries that occur to ligaments and to the joints to which they are attached.",
+      "A fracture occurs when a tendon connecting a muscle to a bone is overstretched and becomes injured."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202721",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Displacement of the bones of a joint is known as: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "a fracture.",
+      "a strain.",
+      "a sprain.",
+      "a dislocation."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202785",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The most frequent injury in skiing is a: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "concussion.",
+      "thumb strain.",
+      "knee sprain.",
+      "fractured radius."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202763",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A snowboarder’s fall over the toe side of the board onto an outstretched hand is known as the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“Dog drag.”",
+      "“Drop back.”",
+      "“Twist.”",
+      "“Mousetrap.”"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202661",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A fracture of a bone will cause bleeding, and a hematoma forms around the fracture site. Over the next several weeks, this hematoma organizes into a substance called: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "calcium.",
+      "a synovium.",
+      "cartilage.",
+      "a callus."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202656",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following statements about skeletal (voluntary) muscles is true? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "They are mostly located on the torso of the body.",
+      "They generally connect to the skeletal system.",
+      "They make up less mass in the body than do involuntary muscles.",
+      "They have the ability to cause movement by extending."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8195236",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "During your SAMPLE inquiry, a patient reports that they had surgery to repair a torn ligament. Based on your training, you know that a ligament is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "a tissue that stabilizes two contiguous bone ends.",
+      "a thick muscle that surrounds a joint.",
+      "a muscle that connects to a bone.",
+      "connective tissue that connects muscle and bone."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202753",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A common injury to the carpal bones among snowboarders who fall forward on an outstretched hand is a fractured: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "ulna.",
+      "thumb.",
+      "scaphoid.",
+      "radius."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202702",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Your secondary assessment of a patient who is complaining of pain in their right leg reveals an opening in the skin where the fractured tibia broke through the skin and retreated back into the leg. You would recognize this injury as a(n): Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "laceration.",
+      "open fracture.",
+      "closed fracture.",
+      "partial fracture."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202748",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Your friend tells you that they want to try snowboarding. They are concerned about their safety and asks you which type of fracture is most common in snowboarders. You learned in your OEC training that this injury involves the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "radius.",
+      "humerus.",
+      "elbow.",
+      "tibia."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202773",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The _____________ can be injured when a hip is dislocated, resulting in numbness or paralysis of a lower extremity. Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "cranial nerve",
+      "tibial nerve",
+      "central nervous system",
+      "sciatic nerve"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8202728",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The most commonly dislocated joint in the body is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "the shoulder.",
+      "the thumb.",
+      "the elbow.",
+      "a knee."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8195223",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "An example of a joint that permits very little movement of the bones involved is the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "hip.",
+      "acromioclavicular.",
+      "shoulder.",
+      "elbow."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  }
+]

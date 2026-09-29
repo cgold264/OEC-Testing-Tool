@@ -1,0 +1,282 @@
+[
+  {
+    "id": "topclass-q-8200107",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "When the diaphragm and intercostal muscles relax, which of the following events occurs? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Inhalation",
+      "Inspiration",
+      "Exhalation",
+      "Release"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200282",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Hyperventilation syndrome is a common psychological condition that: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "results in abnormally low blood carbon dioxide levels.",
+      "is always benign and resolves with no treatment.",
+      "is often precipitated by exercise.",
+      "is characterized by shallow, irregular, rapid breaths."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8163044",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You have been ventilating the patient with an oropharyngeal airway and bag-valve mask. Suddenly the patient regains consciousness and starts to gag. Your immediate action should be to: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "reassure and calm the patient.",
+      "remove the airway.",
+      "suction around the airway.",
+      "leave the airway in place but stop ventilations."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200246",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are documenting your assessment of the patient who just left in an ambulance. The patient told you that they felt short of breath. You would document this as: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "dyspnea.",
+      "anoxia.",
+      "arrhythmia.",
+      "respiratory failure."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200322",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following respiratory rates may signify significant respiratory issues in an adult? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "More than 20 respirations per minute",
+      "Fewer than 12 respirations per minute",
+      "More than 24 respirations per minute",
+      "Fewer than 8 respirations per minute"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200023",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following statements indicates that the speaker understands how and when to use an oropharyngeal airway? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“I must watch the patient for vomiting or gagging even with the proper insertion.”",
+      "“It can be used for patients who respond to painful stimuli.”",
+      "”It should be sized from the tip of the nose to the angle of the jaw.”",
+      "“It protects the patient from aspirating vomit or other secretions.”"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200328",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are assessing a 34-year-old patient who is complaining of “not feeling well.” They are alert and pale. Respirations are regular at 20 per minute. Based on your training, you recognize that their respirations are: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "normal for an adult.",
+      "to be bradypnea.",
+      "rapid for an adult.",
+      "rapid but OK because they are regular."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200057",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are checking equipment at the beginning of your shift. The D size oxygen cylinder measures 1000 psi. You calculate that if you needed to use this tank at 15 LPM it would last: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "5 minutes",
+      "15 minutes",
+      "12 minutes",
+      "8.5 minutes"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200098",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following lists best represents the correct sequence for the passage of air into the lungs once it passes the pharynx? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Epiglottis, esophagus, trachea, alveoli",
+      "Larynx, trachea, bronchi, alveoli",
+      "Bronchi, larynx, trachea, cricoid",
+      "Trachea, uvula, bronchi, alveoli"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8162979",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You hear a candidate OEC Technician explaining the use of a barrier device to another candidate. Which of the following statements would indicate that the candidate fully understands its purpose or how to use it? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "\"It is important to prefill the oxygen reservoir prior to using the barrier device.\"",
+      "\"A barrier device will keep the tongue from blocking the airway.\"",
+      "\"A barrier device cannot be used as personal protectice equipment.\"",
+      "\"When ventilating a patient with a barrier device, watch for the rise and fall of the patient's chest.\""
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200062",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following statements shows that the speaker understands how to properly store an oxygen tank after use? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“I’ll stand the oxygen tank on the floor beside the stretcher so everyone will know where it is.”",
+      "“I’m going to leave the regulator set to 15 LPM so it will be ready when we need it.”",
+      "“I’ll place the oxygen tank in its protective case until we need to use it again.”",
+      "“I’ll tighten the valve stem as much as I can so it won’t come loose.”"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200125",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following actions causes an individual to inhale? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The diaphragm contracts and flattens.",
+      "The chest cavity decreases in size.",
+      "Pressure within the chest increases.",
+      "The intercostal muscles relax."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200093",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The passage of oxygen and carbon dioxide through the walls of the alveolae occurs via: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "breathing.",
+      "aspiration.",
+      "diffusion.",
+      "osmosis."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8162973",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are caring for an unconscious patient who has vomited and appears to have a blocked airway. Using the cross-finger technique, you open the patient's mouth and can see a large piece of undigested food near the back of the throat. You would: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "insert an airway.",
+      "administer abdominal thrusts.",
+      "perform a finger sweep.",
+      "encourage the patient to cough."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200067",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You have been asked to put a patient on a nonrebreather mask at 15 LPM. After you have finished attaching the regulator to the oxygen cylinder, your next step is to: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "turn the valve stem on the top of the cylinder using a special oxygen wrench or key.",
+      "turn the oxygen control knob to 15 LPM.",
+      "check the pressure gauge indicator to determine how much pressure is in the cylinder.",
+      "attach the nonrebreather mask to the regulator and fill the reservoir."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200309",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are having a hard time getting the medical history of a patient who is short of breath. Which one of the following pieces of information would lead you to believe that the patient has a history of a chronic lung disease such as chronic emphysema? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Their respirations are tachypneic.",
+      "Patient's chest is barrel shaped.",
+      "They take one aspirin every day.",
+      "Patient has a frequent cough."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200052",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You recognize that an oropharyngeal airway has been appropriately inserted when: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "it cannot be dislodged by the rescuer.",
+      "vomiting is no longer occurring.",
+      "air moves freely in and out of the airway.",
+      "the flange sits about ¼ inches from the patient’s lips."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200304",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following signs would you recognize as an early sign of respiratory distress in a 7-year-old child who complains of difficulty breathing? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Nasal flaring",
+      "Barrel chest",
+      "Ecchymosis on his chest",
+      "Tremors of his hands"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8162996",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "To have a maximum amount of oxygen available for an incident with many patients, you would stock which size of tank? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "M",
+      "Super D",
+      "D",
+      "E"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8200072",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following occurs during the proper application and use of a nonrebreather mask? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The mask will cover the mouth only so that air can be breathed into the nose.",
+      "The oxygen reservoir should completely collapse each time the patient inhales.",
+      "The oxygen reservoir should be inflated prior to application of the mask.",
+      "The flow rate should be set to 1 to 6 p.m."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  }
+]

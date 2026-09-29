@@ -1,0 +1,282 @@
+[
+  {
+    "id": "topclass-q-8205935",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following statements indicates that the speaker understands chest trauma? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“Internal chest injuries are more difficult to assess and manage than are the more obvious external chest injuries.”",
+      "“Open chest injuries are more serious than closed chest injuries because air and bacteria can enter the chest through the open wound.”",
+      "“Closed chest injuries are caused by penetrating trauma and cause more life-threatening injuries than do open chest injuries.”",
+      "“In general, an open chest injury caused by blunt trauma is more life threatening than a closed one due to increased blood loss.”"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8163266",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are managing a patient with a large flail segment in the right lateral chest. The immediate threat to this patient's life is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "blood loss.",
+      "rib fractures.",
+      "infection.",
+      "hypoxia."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8163261",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The heart and lungs are located in the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "mediastinum.",
+      "pericardial cavity.",
+      "thoracic cavity.",
+      "pleural cavity."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206153",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "When palpating the anterior portion of a patient’s abdomen, you note tenderness in the left upper quadrant. You would recognize that which organ might be involved? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The spleen",
+      "The gallbladder",
+      "The liver",
+      "The kidney"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206053",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Your 35-year-old patient has received major chest trauma. Patient complains of shortness of breath and pain. Your assessment reveals distended neck veins and pulsus paradoxus. Based on these signs and symptoms, you believe the patient to be suffering from: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "pleural effusions.",
+      "aortic rupture.",
+      "pericardial tamponade.",
+      "acute myocardial infarction."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8163339",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You suspect that a trauma patient is suffering from a hemothorax to the left lung. Which of the following assessment findings would reinforce your suspicion? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Cyanosis and a blood pressure of 210/100",
+      "Bradycardia and hypertension",
+      "Respiratory distress and the signs and symptoms of shock",
+      "Neck vein distention and absent breathing sounds in the right lung"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206119",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are treating a 16-year-old who was skiing out of control and ran off the trail and into the woods. When you arrive, the patient is alert and complaining of pain in their right lower chest. Upon examination, you note that the patient has impaled themself with a tree branch. They tell you they will feel better if you just remove the branch. Based on your training as an OEC technician, you would respond by making which of the following statements? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“Once my helpers arrive and we are ready to transport you, we can remove the branch.”",
+      "“I’m not supposed to remove the branch, but you can if you think it will make you more comfortable.”",
+      "“We need to leave the branch in place until we get you to a hospital.”",
+      "“I need to get a bulky dressing ready in case there is bleeding when I remove the branch.”"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206217",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "When taking care of a patient with an abdominal injury, your first priority is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "stabilizing the patient.",
+      "achieving proper airway management.",
+      "keeping the scene, patient, and all rescuers safe.",
+      "controlling massive bleeding."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206015",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "An OEC candidate indicates that they understand the difference between a pneumothorax and a tension pneumothorax when they make which of the following statements? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“A pneumothorax is caused by a closed chest injury; a tension pneumothorax is caused by an open chest injury.”",
+      "“A tension pneumothorax can cause cardiac output to decrease; a pneumothorax does not.”",
+      "“A pneumothorax describes a collapsed lung; a tension pneumothorax involves both a collapsed lung and blood loss.”",
+      "“A tension pneumothorax causes blood to accumulate around the lung; a pneumothorax involves the accumulation of air only around the lung.”"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205965",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You have placed an occlusive dressing on a puncture wound on the right side of the chest of a 33-year-old patient. During your ongoing assessment, your primary concern is monitoring the injury for: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "arterial bleeding.",
+      "tension pneumothorax.",
+      "infection at the wound site.",
+      "ecchymosis at the wound site."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206178",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The spleen of a patient has ruptured. Because the spleen is a solid organ, you recognize that the primary threat to life is most likely: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "blood loss.",
+      "pain.",
+      "inflammation.",
+      "infection."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206102",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are listening to two patrollers discuss the accident to which they just responded. Which of the following injuries would lead you to believe that one of the patients had suffered from traumatic asphyxia? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Bluish discoloration of the neck and face",
+      "A bilateral femur deformity",
+      "Abdominal bruising and distention",
+      "A chest wound that makes a sucking sound"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206226",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A crying 42-year-old patient states that they have sharp abdominal pain that they localize to their right lower quadrant. When assessing this patient’s abdomen, you would look for distention and symmetry and then: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "start the abdominal exam by palpating the right lower quadrant.",
+      "avoid palpating the entire abdomen.",
+      "avoid palpating the right lower quadrant.",
+      "start the exam by palpating the abdomen in the quadrant farthest away from the one that is painful."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205955",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "An OEC candidate asks you to explain a pneumothorax. Your response should be that it occurs when: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "air accumulates between the inner chest wall and the outside of the lung, causing the lung to collapse.",
+      "the trachea becomes obstructed, causing the lungs to collapse.",
+      "air enters the lung alveoli through a traumatic opening in the chest wall.",
+      "the lung becomes overinflated with air and then collapses."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206211",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following statements indicates that you correctly understand the goal of assessing and managing a patient who has abdominal pain? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“It is more important to recognize a possible abdominal injury or emergency than it is to identify the exact cause.”",
+      "“If the patient has tenderness upon any palpation of the abdomen, OEC technicians should assume that bleeding is the cause.”",
+      "“It is important to determine if the liver is the cause of pain because that is the most life-threatening condition.”",
+      "“To best treat the patient, OEC technicians must identify the exact cause of the patient’s pain.”"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206206",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You would recognize which one of the following situations as an acute abdominal emergency? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "A woman who says she drank tequila last night and now has stomach pain with diarrhea",
+      "A child whose sister has hepatitis and who has just vomited for the first time",
+      "A patient who complains of stomach pain and has bad-smelling gas",
+      "A ski racer who hit a tree and has significant left flank pain prior to and during palpation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8163334",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You have applied a nonporous dressing to a puncture wound on a patient's chest. An OEC candidate asks you why the dressing was taped only on three sides. Your best response is that taping the dressing on three sides: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "is less painful for the patient.",
+      "allows trapped air to escape upon exhalation.",
+      "decreases the chances that air will enter the chest upon exhalation.",
+      "permits oxygen to enter the lungs."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205930",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Injuries at which level of the spinal cord can affect the phrenic nerves and therefore respiration? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "C3–C5",
+      "T1–T3",
+      "T4–T6",
+      "C6–T1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206183",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The pancreas is best described as a: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "solid organ.",
+      "fluid-filled organ.",
+      "hollow organ.",
+      "nonfunctional organ."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206136",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The function of organs in the abdomen is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "the storage of fat.",
+      "only digestion.",
+      "digestion, production of white blood cells, and the filtering of blood.",
+      "the absorption of oxygen."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  }
+]

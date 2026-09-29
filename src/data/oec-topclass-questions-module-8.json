@@ -1,0 +1,282 @@
+[
+  {
+    "id": "topclass-q-9444103",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "When explaining the priorities of helmet removal to a candidate patroller, you would stress: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "sliding the helmet rearward off the head so that you don’t hit the patient’s nose.",
+      "applying a cervical collar before removing the helmet to help stabilize the head.",
+      "sliding the fingers under the occiput so that the head doesn’t drop backward.",
+      "removing the helmet to ensure the patient’s proper alignment on a backboard."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205803",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are on a snowmobiling trip with friends when you see members of the lead group hollering and waving their hands up ahead. When you get to the scene, you note that the lead rider apparently did not see a chain across the road, and struck the chain with their neck so forcefully that they were thrown backward off their machine. Someone in the group is maintaining manual in-line stabilization. When you assess the injured person, which of the following signs would indicate the injury that must be addressed and managed first? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "An open fracture of the left arm",
+      "Difficulty speaking",
+      "A partially avulsed ear",
+      "A laceration to the forehead"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9443119",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A mechanical injury to the brain that results in a short-term and/or a long-term neurologic deficit is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "neural ischemia.",
+      "a traumatic brain injury.",
+      "a subdural hematoma.",
+      "a repetitive head injury."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8204992",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The first step in placing a patient in the toboggan for transport is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "deciding how to get the patient and equipment off the hill.",
+      "deciding who will be in the handles of the toboggan during transport.",
+      "deciding whether or not to put the patient’s injury uphill.",
+      "deciding the fastest route of transport."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9443839",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following assessment findings is most indicative of increasing pressure within the skull from a closed head injury? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Heart rate of 132 beats per minute",
+      "Blood pressure of 110/50",
+      "Blood pressure of 192/82 mmHg",
+      "Pupils equal and reactive"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8204968",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "One of the most common nonurgent moves for OEC technicians to use when alone is the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "human crutch.",
+      "fore and aft carry.",
+      "back carry.",
+      "chair carry."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205788",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The part of the eye that focuses light on the retina is called the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "vitreous humor.",
+      "iris.",
+      "lens.",
+      "sclera."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9441359",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are notified that a patient is coming to the first-aid room with bruising to the lumbar area of the back. Based on this statement, you would expect to find bruising in which area? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The lower back",
+      "The buttocks",
+      "The upper back",
+      "The neck"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8204963",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "To use an urgent move called the shoulder drag, you should: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "stand upright behind the patient, bend over, and then grab the patient under the armpits and drag.",
+      "grab one arm at the shoulder and drag the patient to a safe position.",
+      "stand behind the patient and grab the patient’s belt while their shoulders are against your chest.",
+      "grab the patient’s clothing at the shoulders, support the head, and then bend your knees and drag the patient."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9443989",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following instructions from one OEC technician to another describes the appropriate application of a cervical spine immobilization collar? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“Carefully flex the patient's head forward a little so I can pass the collar underneath their neck.”",
+      "“I need you to extend the patient’s chin backward a little so I can fit the collar under their chin.”",
+      "“Let’s log roll the patient to one side so I can apply a cervical collar.”",
+      "“Keep the patient's head in neutral position while I apply a cervical collar.”"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205895",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A young child is complaining of eye pain after having bleach thrown in their face. When assessing the patient's eyes, you note redness and significant tearing in the right eye. You would treat this patient by: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "stopping the tearing by applying gentle pressure to the eye.",
+      "covering both eyes immediately.",
+      "gently wiping the inner eye with pieces of sterile gauze.",
+      "flushing the eye with sterile water."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8204957",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "An urgent move is required when: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "the patient complains of being cold on a 10-degree day.",
+      "the rescuer and the patient must move to a safer location.",
+      "a crowd of people has formed around you and the patient.",
+      "a patient is in severe pain."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9443649",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You should recognize a possible spinal column injury with no spinal cord involvement when you discover which of the following assessment findings? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Tenderness to the thoracic spine with intact motor and sensory function in each extremity",
+      "Intact sensation to all four extremities with the loss of motor ability in the arms",
+      "Pain in the cervical spine with the loss of sensation to the right arm and leg",
+      "Intact motor ability to all four extremities with the loss of sensation to the legs"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9443417",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A young intoxicated patient cannot move their lower extremities after diving into the shallow end of a pool and hitting the bottom with their head. Which of the following mechanisms is most likely to be responsible for this injury? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Distraction",
+      "Rotation",
+      "Compression",
+      "Penetration"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8204997",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The uphill positioning principle has exceptions. For patients with breathing difficulty, the patient should be placed either seated or uphill depending on other injuries. The uphill concept allows easier breathing because: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "of less pressure from the abdominal contents pushing upwards on the thorax.",
+      "it calms patients by enabling them to see where they are going during transport.",
+      "the ribs have greater flexibility of movement in the uphill position.",
+      "air flows more easily through a patient’s nose compared to a head-downhill position."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205905",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You respond to the vehicle maintenance department, where a middle-aged patient is flushing their eyes with tap water. The patient tells you that acid splashed in their eyes and that they are burning. Which of the following questions is the most important one to ask right away? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“What is your past medical history?”",
+      "“Do you take any medications?”",
+      "“Are you wearing contact lenses?”",
+      "“Have you ever had a previous eye injury?”"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205005",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A woman who is six months pregnant and experiencing back pain should be placed on a backboard and then placed in a toboggan in which of the following positions? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "In a supine position",
+      "Sitting up",
+      "On her left side",
+      "With her head downhill"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9443318",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are participating in training OEC candidates and are asked about cerebral contusions. You would explain to the class that a cerebral contusion is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "an open skull fracture with increased pressure within the skull.",
+      "the formation of a pocket of blood within the brain tissue.",
+      "bruising and swelling of the brain tissue.",
+      "active bleeding between the brain and the skull."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8205015",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "During helicopter landing or takeoff, most protocols only allow the _______ to be in the LZ. Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "patrol director",
+      "risk manager",
+      "landing coordinator",
+      "OEC technician and the patient"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9443600",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are assessing a 30-year-old patient who has fallen about 20 feet. Patient is alert and oriented but states that they cannot move or feel their legs. Additionally, because their blood pressure is 82/48 mmHg, you suspect neurogenic shock. Which of the following additional assessment findings reinforces your suspicion of neurogenic shock? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Heart rate of 144",
+      "Heart rate of 44",
+      "Shallow rapid respirations",
+      "Warm and dry skin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "topclass-q-8197920",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The terms occipital, frontal, and parietal refer to what part of the body? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The cranium",
+      "The chest",
+      "The pelvis",
+      "The spine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8136833",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The study of human and animal structures at the gross and microscopic levels is known as: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "biology.",
+      "homeostasis.",
+      "anatomy.",
+      "physiology."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197791",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "When the diaphragm and intercostal muscles relax, which one of the following occurs? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Systolic pressure increases",
+      "Inspiration",
+      "Diastolic pressure increase",
+      "Exhalation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197648",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The term used to describe the action of taking an extremity away from the midline of the body is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "extension.",
+      "abduction.",
+      "flexion.",
+      "adduction."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197900",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A patient has suffered a burn to the skin. Based on the functions of the skin, to which of the following conditions is the patient most susceptible? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Heart problems",
+      "Endocrine disorders",
+      "Infection",
+      "Fluid overload"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197815",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which chamber of the heart is responsible for pumping blood to the lungs? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The right atrium",
+      "The right ventricle",
+      "The left atrium",
+      "The left ventricle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-9442793",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are working on a patient who has skied into a tree and are told that there is a frontal hematoma. From that, you expect to find the injury where? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The chest",
+      "The skull",
+      "The thigh",
+      "The left arm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197851",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A patient has suffered damage to their brainstem. As a result of this injury, which of the following signs might you expect to see? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Muscle spasms",
+      "Abnormal respirations",
+      "Sweating",
+      "Pinpoint pupils"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197858",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The pressure exerted on the inside walls of arteries when the left ventricle contracts is called: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "diastolic pressure.",
+      "ventricle pressure.",
+      "contraction pressure.",
+      "systolic pressure."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197930",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The bones of the upper extremities include the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "radius, ulna, and tarsals.",
+      "phalanges and tibia.",
+      "humerus and radius.",
+      "humerus and calcaneus."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197805",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The primary function of the heart is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "maintaining the volume of blood.",
+      "oxygenating blood in the lungs.",
+      "transferring oxygen to the cells.",
+      "pumping blood throughout the body."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8136812",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following groups of bones could be involved in a patient with a \"broken leg\"? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Radius, ulna, humerus",
+      "Acetabulum, calcaneus, carpals",
+      "Orbitm maxillae, mandible",
+      "Femur, tibia, fibula"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197969",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The pelvic cavity contains which of the following organs? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The kidneys and the spleen",
+      "The pancreas and the bladder",
+      "The rectum and the reproductive organs",
+      "The bladder and the kidneys"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197834",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The left atrium: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "receives blood from the pulmonary veins.",
+      "pumps blood to the body.",
+      "pumps blood to the lungs.",
+      "receives blood from the veins of the body."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197925",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A new patroller tells you that they injured a tendon above their patella three years ago. You recognize that this injury involves a structure that: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "connects the cartilage in the knee.",
+      "connects muscles to the patella.",
+      "attaches the patella to the femur.",
+      "attaches a ligament to the knee."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197781",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following systems is not a body system? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "The thoracic system",
+      "The endocrine system",
+      "The respiratory system",
+      "The skeletal system"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197695",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are assisting in the care of an elderly patient complaining of shortness of breath. You place the patient on 15L of oxygen via a nonrebreather mask and place them in a high Fowler’s position. This means that you will place this patient on their: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "back, with their upper body elevated at 90 degrees from the waist.",
+      "left side, with their left arm over their head.",
+      "back, with their head down and their legs elevated higher than the head.",
+      "back, with their upper body elevated at 45 degrees from the waist."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197935",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following lists identifies the regions of the spinal column from superior to inferior? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Cervical, thoracic, lumbar, sacral, and coccyx",
+      "Cervical, lumbar, thoracic, sacral, and coccyx",
+      "Thoracic, lumbar, cervical, coccyx, and sacral",
+      "Coccyx, lumbar, thoracic, cervical, and sacral"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8136794",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following lists represents a correct sequence for the passage of air into the lungs? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Layrnx, esophagus, trachea, bronchi, alveoli",
+      "Nose, bronchi, larynx, trachea, pharynx",
+      "Mouth, pharynx, trachea, bronchi, alveoli",
+      "Epiglottis, trachea, bronchi, alveoli, nasopharynx"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8197766",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The leaf-shaped flap that helps prevent food from entering the lower respiratory system is called: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "a bronchiole.",
+      "the pharynx.",
+      "the trachea.",
+      "the epiglottis."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  }
+]

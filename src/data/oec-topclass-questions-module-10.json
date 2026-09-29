@@ -1,0 +1,282 @@
+[
+  {
+    "id": "topclass-q-8206737",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "In the United States, poison-related information is available 24 hours a day by contacting the: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Chemical Emergency Center.",
+      "Substance Abuse and Mental Health Hotline.",
+      "National Institute on Drug Abuse.",
+      "American Association of Poison Control Centers."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206707",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The most commonly abused drug in the world is: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "alcohol.",
+      "amphetamine.",
+      "cocaine.",
+      "marijuana."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206439",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "In the mnemonic AEIOU-TIPS, the T stands for: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "thyroiditis and thrombophlebitis.",
+      "thrombophlebitis and tinnitus.",
+      "trauma and tumors.",
+      "trauma and thrombophlebitis."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206674",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Substance abuse is defined as: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "the intentional misuse of a substance that results in significant impairment.",
+      "an accidental ingestion of a toxin that interferes with normal functioning.",
+      "the use of a substance or poison at least once a day.",
+      "an intentional or unintentional use of a substance or poison that results in a medical emergency."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206595",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "After a delayed response, you arrive in the lodge and find a 62-year-old is still seizing. Which one of the following should you do first? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Ascertain the duration of the seizure.",
+      "Determine if the patient has a seizure history.",
+      "Assess the patient's airway and breathing.",
+      "Move the patient to the aid room for further assessment and then transport patient to the hospital."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206665",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The process by which the body breaks down a substance is known as: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "metabolism.",
+      "elimination.",
+      "distribution.",
+      "detoxification."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8163216",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Glucose: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "allows the body to use insulin.",
+      "is an essential building block for body tissues such as muscle and bone.",
+      "is an energy source for brain cells and other cells in the body.",
+      "assists the pancreas in teh manufacture of insulin."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206589",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following questions is critical for establishing a window of treatment for a patient who is weak and dizzy and may have suffered a stroke? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“Do you have any pain in your arms or legs?”",
+      "“Does your father have a history of heart problems or stroke?”",
+      "“What medications do you take?”",
+      "“What time did the weakness and dizziness start?”"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206702",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A patient in the third day of withdrawal from alcohol could develop all of the following conditions except: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "seizure activity.",
+      "hallucinations.",
+      "muscle tremors.",
+      "rash."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8163206",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which letter in FAST-ED involves the eyes? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "D",
+      "E",
+      "F",
+      "S"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206732",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You are visiting a friend’s home and suddenly hear a child crying out in the kitchen. As you assess the scene, you note kitchen cabinets are open with bottles tossed around. The child is holding their hand to their mouth. Your friend tells you that the child must have tasted something that they didn’t like. Based on your scene assessment, you would: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "ask your friend if she has Ipecac so you can make the child vomit.",
+      "call the poison control center and try to identify which bottle the child may have been drinking from.",
+      "offer the child a glass of milk to dilute any chemical he may have ingested.",
+      "agree with your friend and suggest that a cookie would take the bad taste away."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206579",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following events best describes an ischemic stroke? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "A blood clot has obstructed a blood vessel in the brain.",
+      "A heart attack has occurred at the same time as a stroke.",
+      "Blood has collected throughout the brain tissue.",
+      "An artery in the brain has ruptured."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206722",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Agitation, elevated heart rate, and elevated blood pressure are signs of intoxication with which of the following types of substances? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Cocaine and hallucinogens",
+      "Alcohol and ethylene glycol",
+      "Inhalants and sleeping pills",
+      "Antipsychotics and carbon monoxide"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206474",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "In the mnemonic AEIOU-TIPS, the first and second I stand for: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "insomnia and intestine.",
+      "interstitial cystitis and iodine.",
+      "impetigo and injury.",
+      "insulin and infection."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206508",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "In the mnemonic AEIOU-TIPS, the S stands for: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Sjogren’s syndrome, seizure, and sinusitis.",
+      "steroids, seizure, and sinusitis.",
+      "sickle cell anemia, Sjogren’s syndrome, and steroids.",
+      "seizure, stroke, and syncope."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206637",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A young child tells you that their twin brother suffers from seizures and asks what they can do if they sees their brother convulsing. You should give them which one of the following instructions? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“Hold him firmly against the floor until he stops seizing or until the EMTs arrive.”",
+      "“Insert a spoon into his mouth to keep him from swallowing his tongue.”",
+      "“Move any moveable objects and furniture away from him.”",
+      "“Call EMS only if the seizure lasts more than 10 minutes or he loses control of his bladder.”  “When he quits seizing, give him sugar so his blood sugar is OK.”"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206684",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "Which of the following statements indicates that the speaker understands inhalation poisonings? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "“They can occur from inhaling common household products.”",
+      "“An inhalation emergency cannot be occurring if you don’t smell anything.”",
+      "“They affect the lungs only and do not circulate systemically.”",
+      "“Most inhalation poisonings are easily identifiable by a residue around the mouth.”"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206647",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "A 44-year-old patient was found at home unresponsive. Based on their clinical presentation and the fact that they were heating with a kerosene heater in an enclosed room, you suspect that they are suffering from carbon monoxide poisoning. Based on this information, which route of exposure would you recognize as responsible for the poisoning? Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "Ingestion",
+      "Transdermal route",
+      "Absorption",
+      "Inhalation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8163211",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "You have been called for a 63-year-old with slurred speech and right arm weakness. On arrival, the patient informs you that the slurred speech and weakness have resolved. Since your assessment reveals no deficits, you would tell the patient: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "\"You really need to be evaluated in the hospital. You could be having a stroke.\"",
+      "\"If this happens again, wait 10 minutes to see if you are okay. If the symptoms don't go away, call 911.\"",
+      "\"Sometimes seizures present this way; call you doctor in the morning to schedule an appointment.\"",
+      "\"It would be best to start taking one baby aspirin every day; this will decrease the chance of this happening again.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "topclass-q-8206712",
+    "chapter": 5,
+    "domain": "Domain 1: Foundations & Assessment",
+    "question": "The mnemonic DUMBELS and the acronym SLUDGEM can help identify specific signs and symptoms associated with: Some features of this page are not accessible if client-side script support is disabled award up to 1 point",
+    "options": [
+      "exposure to nerve agents.",
+      "overdoses of antipsychotic drugs.",
+      "ingestion of LSD.",
+      "ingestion of ethylene glycol."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  }
+]

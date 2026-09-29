@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+.npm
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Cloudflare & Wrangler
+.wrangler/
+.dev.vars
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

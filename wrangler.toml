@@ -1,0 +1,6 @@
+name = "oec-testing-tool"
+compatibility_date = "2024-04-01"
+pages_build_output_dir = "dist"
+
+# To add secrets locally, edit .dev.vars:
+# GEMINI_API_KEY=your_key_here
