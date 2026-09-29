@@ -85,6 +85,12 @@ export interface ScenarioHiddenPathology {
   sampleHistory: ScenarioSAMPLE;
 }
 
+export interface BoCoSpinalProtocol {
+  cCollarIndicated: boolean;
+  criteriaMet: string[];
+  rationale: string;
+}
+
 export interface ScenarioRubric {
   mustDo: string[];
   criticalFails: string[];
@@ -101,6 +107,7 @@ export interface ScenarioCard {
   patientProfile: ScenarioPatientProfile;
   hiddenPathology: ScenarioHiddenPathology;
   scoringRubric: ScenarioRubric;
+  spinalProtocol?: BoCoSpinalProtocol;
 }
 
 export interface ChatMessage {

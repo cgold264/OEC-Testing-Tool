@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, CheckSquare, MessageSquareText, Settings, Snowflake } from 'lucide-react';
+import { Layers, CheckSquare, MessageSquareText, Settings, Snowflake, FileText } from 'lucide-react';
 
 export type ActiveTab = 'flashcards' | 'exam' | 'scenarios';
 
@@ -81,8 +81,39 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onSelectTab, onOpenSe
             </button>
           </nav>
 
-          {/* Right actions: Settings */}
-          <div className="flex items-center gap-2">
+          {/* Right actions: Files & Settings */}
+          <div className="flex items-center gap-2 relative">
+            <button
+              onClick={() => {
+                const el = document.getElementById('files-dropdown');
+                if (el) el.classList.toggle('hidden');
+              }}
+              className="p-2.5 rounded-xl text-sky-200 hover:text-white hover:bg-sky-950/80 border border-sky-400/10 hover:border-sky-400/30 transition-all shadow-sm"
+              title="Download Resources"
+            >
+              <FileText className="w-5 h-5" />
+            </button>
+            
+            <div id="files-dropdown" className="hidden absolute top-full right-12 mt-2 w-56 bg-slate-800 border border-slate-700 rounded-xl shadow-xl overflow-hidden z-50">
+              <div className="p-2">
+                <h4 className="text-xs font-semibold text-slate-400 px-3 py-1 uppercase tracking-wider">Resources</h4>
+                <a 
+                  href="/Patient Assessment.pdf" 
+                  download 
+                  className="block px-3 py-2 mt-1 text-sm text-slate-200 hover:bg-slate-700 hover:text-white rounded-lg transition-colors"
+                >
+                  Patient Assessment PDF
+                </a>
+                <a 
+                  href="/BoCo-Protocols_Oct-2025_Spinal.pdf" 
+                  download 
+                  className="block px-3 py-2 mt-1 text-sm text-slate-200 hover:bg-slate-700 hover:text-white rounded-lg transition-colors"
+                >
+                  BoCo Spinal Protocols
+                </a>
+              </div>
+            </div>
+
             <button
               onClick={onOpenSettings}
               className="p-2.5 rounded-xl text-sky-200 hover:text-white hover:bg-sky-950/80 border border-sky-400/10 hover:border-sky-400/30 transition-all shadow-sm"

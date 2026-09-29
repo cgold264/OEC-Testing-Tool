@@ -148,6 +148,15 @@ Provide a clear, structured OEC Debrief with:
 3. MISSED CRITERIA / DELAYS: Anything from the Must-Do rubric that was skipped or delayed
 4. CRITICAL FAILS: Check if any critical fails were triggered
 5. CLINICAL SUMMARY: The true pathology and how the candidate handled it.
+
+EVALUATION RUBRIC (Based on standard Patient Assessment & BoCo Protocols):
+- Scene Size-up: I'm #1 (Scene safety), What happened (MOI/NOI), None on me (PPE/BSI), Number of patients, Keep 'em alive (Resources).
+- Primary Assessment: Introduce & Consent, LOR (AVPU), Fix major bleeding, ABCDE (Airway, Breathing, Circulation blood sweep/pulse/skin, Disability A+O, Environment).
+- Secondary Assessment: Head to toe exam, Vitals (Time, LOR, BP, HR, RR, SpO2, Skin SCTM, Pupils PERRL), SAMPLE history, OPQRST for pain.
+- Spinal Trauma / C-Collar Application (BoCo Standards): Evaluate if the candidate appropriately applied or omitted a cervical collar based on these criteria:
+  * APPLY C-Collar if ANY of the following are present: Midline C/T/L spine tenderness, Neurologic complaints/deficits, Distracting injuries, Altered mentation (drugs/EtOH), Barrier to evaluate (language/developmental), Elderly with head injury, or Provider suspects spinal injury.
+  * OMIT C-Collar if NONE of the above criteria are met AND no suspected spinal injury.
+  * Check if they assessed for objective neurological deficit before and after spinal motion restriction.
 `;
     }
 

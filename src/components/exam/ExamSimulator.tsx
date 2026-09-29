@@ -345,50 +345,56 @@ export const ExamSimulator: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto px-4 py-6 pb-24 md:pb-12">
       {/* Top Test Header (Alpine Glassmorphism) */}
-      <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md py-3 px-4 mb-6 rounded-2xl border border-sky-200 shadow-md flex items-center justify-between gap-4">
-        {/* Progress Bar & Mountain Ascent Counter */}
-        <div className="flex-1">
-          <div className="flex justify-between items-center text-xs font-bold text-slate-700 mb-1.5">
-            <span className="flex items-center gap-1.5 text-sky-900">
-              <Mountain className="w-4 h-4 text-sky-600" />
-              Question {currentIndex + 1} of {examQuestions.length}
+      <div className="sticky top-16 z-30 bg-white/95 backdrop-blur-md p-3 sm:px-4 sm:py-3 mb-6 rounded-2xl border border-sky-200 shadow-md">
+        <div className="flex items-center justify-between gap-2 sm:gap-4 mb-2">
+          {/* Question Counter */}
+          <div className="flex items-center gap-1.5 text-xs font-bold text-sky-900 min-w-0">
+            <Mountain className="w-4 h-4 text-sky-600 shrink-0" />
+            <span className="truncate">
+              Q <span className="font-extrabold">{currentIndex + 1}</span>
+              <span className="text-slate-400 font-normal"> / {examQuestions.length}</span>
             </span>
-            <span className="text-sky-700">
-              {answeredCount}/{examQuestions.length} answered
+            <span className="hidden sm:inline text-sky-700 text-xs font-medium ml-2">
+              ({answeredCount} answered)
             </span>
           </div>
-          <div className="w-full bg-sky-100 h-2 rounded-full overflow-hidden p-0.5 border border-sky-200">
-            <div
-              className="bg-gradient-to-r from-sky-500 via-sky-600 to-red-600 h-full transition-all duration-300 rounded-full"
-              style={{ width: `${((currentIndex + 1) / examQuestions.length) * 100}%` }}
-            />
+
+          {/* Right Controls: Timer + Grid + Submit */}
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+            {/* Alpine Chronograph Timer */}
+            {isTimed && (
+              <div className="flex items-center gap-1 bg-[#051124] text-white px-2 py-1 sm:px-3 sm:py-1.5 rounded-xl font-mono text-xs sm:text-sm font-bold shadow-sm border border-sky-400/30">
+                <Timer className="w-3.5 h-3.5 text-red-400 shrink-0" />
+                <span className="tracking-wide">{formatTimer(timeLeft)}</span>
+              </div>
+            )}
+
+            {/* Grid Jump */}
+            <button
+              onClick={() => setShowGridModal(true)}
+              className="p-1.5 sm:p-2 border border-sky-200 rounded-xl bg-white hover:bg-sky-50 text-slate-700 transition shadow-sm"
+              title="Question Navigator"
+            >
+              <Grid className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+            </button>
+
+            {/* Finish/Submit button */}
+            <button
+              onClick={() => setShowSubmitModal(true)}
+              className="px-2.5 py-1 sm:px-3.5 sm:py-1.5 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl text-xs sm:text-sm font-bold shadow-md hover:from-red-700 hover:to-red-800 transition active:scale-95"
+            >
+              Submit
+            </button>
           </div>
         </div>
 
-        {/* Alpine Chronograph Timer */}
-        {isTimed && (
-          <div className="flex items-center gap-1.5 bg-[#051124] text-white px-3.5 py-1.5 rounded-xl font-mono text-xs sm:text-sm font-bold shrink-0 shadow-sm border border-sky-400/30">
-            <Timer className="w-4 h-4 text-red-400" />
-            <span className="tracking-wider">{formatTimer(timeLeft)}</span>
-          </div>
-        )}
-
-        {/* Grid Jump */}
-        <button
-          onClick={() => setShowGridModal(true)}
-          className="p-2 border border-sky-200 rounded-xl bg-white hover:bg-sky-50 text-slate-700 transition shrink-0 shadow-sm"
-          title="Question Navigator"
-        >
-          <Grid className="w-4 h-4" />
-        </button>
-
-        {/* Finish button */}
-        <button
-          onClick={() => setShowSubmitModal(true)}
-          className="px-3.5 py-1.5 bg-gradient-to-r from-red-600 to-red-700 text-white rounded-xl text-xs sm:text-sm font-bold shadow-md hover:from-red-700 hover:to-red-800 transition shrink-0"
-        >
-          Submit
-        </button>
+        {/* Full-width Progress Bar */}
+        <div className="w-full bg-sky-100 h-1.5 sm:h-2 rounded-full overflow-hidden p-0.5 border border-sky-200">
+          <div
+            className="bg-gradient-to-r from-sky-500 via-sky-600 to-red-600 h-full transition-all duration-300 rounded-full"
+            style={{ width: `${((currentIndex + 1) / examQuestions.length) * 100}%` }}
+          />
+        </div>
       </div>
 
       {/* Active Question Card */}
@@ -407,28 +413,31 @@ export const ExamSimulator: React.FC = () => {
       )}
 
       {/* Navigation Buttons */}
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex items-center justify-between gap-2.5 sm:gap-4 w-full">
         <button
           onClick={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
           disabled={currentIndex === 0}
-          className="flex items-center gap-1 px-5 py-2.5 text-xs sm:text-sm font-bold border border-sky-200 rounded-xl bg-white text-slate-700 hover:bg-sky-50 disabled:opacity-40 disabled:cursor-not-allowed transition shadow-sm"
+          className="flex-1 sm:flex-none flex items-center justify-center gap-1 px-3 sm:px-5 py-2.5 text-xs sm:text-sm font-bold border border-sky-200 rounded-xl bg-white text-slate-700 hover:bg-sky-50 disabled:opacity-40 disabled:cursor-not-allowed transition shadow-sm"
         >
-          <ChevronLeft className="w-4 h-4" /> Previous
+          <ChevronLeft className="w-4 h-4 shrink-0" />
+          <span>Previous</span>
         </button>
 
         {currentIndex === examQuestions.length - 1 ? (
           <button
             onClick={() => setShowSubmitModal(true)}
-            className="flex items-center gap-1.5 px-6 py-2.5 bg-gradient-to-r from-red-600 to-red-700 text-white text-xs sm:text-sm font-bold rounded-xl shadow-md hover:from-red-700 hover:to-red-800 transition"
+            className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 sm:px-6 py-2.5 bg-gradient-to-r from-red-600 to-red-700 text-white text-xs sm:text-sm font-bold rounded-xl shadow-md hover:from-red-700 hover:to-red-800 transition active:scale-95"
           >
-            Finish & View Score
+            <span>Submit Exam</span>
+            <span className="hidden sm:inline">& View Score</span>
           </button>
         ) : (
           <button
             onClick={() => setCurrentIndex((prev) => Math.min(examQuestions.length - 1, prev + 1))}
-            className="flex items-center gap-1 px-5 py-2.5 bg-slate-900 text-white text-xs sm:text-sm font-bold rounded-xl shadow-md hover:bg-slate-800 transition"
+            className="flex-1 sm:flex-none flex items-center justify-center gap-1 px-3 sm:px-5 py-2.5 bg-slate-900 text-white text-xs sm:text-sm font-bold rounded-xl shadow-md hover:bg-slate-800 transition active:scale-95"
           >
-            Next <ChevronRight className="w-4 h-4" />
+            <span>Next</span>
+            <ChevronRight className="w-4 h-4 shrink-0" />
           </button>
         )}
       </div>
@@ -521,16 +530,16 @@ export const ExamSimulator: React.FC = () => {
                 </span>
               )}
             </p>
-            <div className="flex gap-3 justify-center">
+            <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 justify-center w-full">
               <button
                 onClick={() => setShowSubmitModal(false)}
-                className="px-4 py-2.5 text-sm font-semibold text-slate-600 hover:bg-slate-100 rounded-xl"
+                className="w-full sm:w-auto px-4 py-2.5 text-xs sm:text-sm font-semibold text-slate-600 hover:bg-slate-100 rounded-xl order-2 sm:order-1 transition"
               >
                 Continue Exam
               </button>
               <button
                 onClick={finishExam}
-                className="px-5 py-2.5 bg-red-600 text-white text-sm font-bold rounded-xl shadow hover:bg-red-700 transition"
+                className="w-full sm:w-auto px-5 py-2.5 bg-red-600 text-white text-xs sm:text-sm font-bold rounded-xl shadow-md hover:bg-red-700 transition order-1 sm:order-2 active:scale-95"
               >
                 Confirm & Submit
               </button>

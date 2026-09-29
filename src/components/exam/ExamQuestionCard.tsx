@@ -39,14 +39,15 @@ export const ExamQuestionCard: React.FC<ExamQuestionCardProps> = ({
 
         <button
           onClick={onToggleFlag}
-          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition ${
+          className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-bold transition shrink-0 ${
             isFlagged
               ? 'bg-amber-100 text-amber-900 border border-amber-300 shadow-sm'
               : 'text-slate-400 hover:text-slate-700 hover:bg-sky-50 border border-transparent'
           }`}
         >
           <Flag className={`w-3.5 h-3.5 ${isFlagged ? 'fill-amber-500 text-amber-600' : ''}`} />
-          {isFlagged ? 'Flagged for Review' : 'Flag Question'}
+          <span>{isFlagged ? 'Flagged' : 'Flag'}</span>
+          <span className="hidden sm:inline">{isFlagged ? ' for Review' : ' Question'}</span>
         </button>
       </div>
 
