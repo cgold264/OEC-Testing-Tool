@@ -114,58 +114,7 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
     }
   };
 
-  // Offline deterministic builder for testing without API keys
-  const initializeOfflineScenario = (skeleton: ReturnType<typeof getRandomScenarioSkeleton>) => {
-    const card: ScenarioCard = {
-      id: `local-scen-${Date.now()}`,
-      title: skeleton.pathology.title,
-      difficulty: skeleton.pathology.difficulty,
-      location: skeleton.setting.locationName,
-      weather: skeleton.setting.defaultWeather,
-      logistics: skeleton.setting.logistics,
-      dispatchCall: `Dispatch to Patroller: Respond to ${skeleton.setting.locationName}. Bystander reports a ${skeleton.patient.age}-year-old ${skeleton.patient.activity} down following a ${skeleton.mechanism.toLowerCase()}.`,
-      patientProfile: {
-        age: skeleton.patient.age,
-        gender: skeleton.patient.gender,
-        activity: skeleton.patient.activity,
-        demeanor: skeleton.patient.demeanor,
-        position: 'lying supine on the snowpack, motionless with skis released'
-      },
-      hiddenPathology: {
-        primary: skeleton.pathology.primary,
-        secondary: skeleton.pathology.secondary,
-        initialVitals: {
-          hr: 124,
-          bp: '96/60',
-          rr: 26,
-          spo2: '90%',
-          skin: 'Pale, cool, clammy',
-          loc: 'Responds to Verbal / Pain'
-        },
-        physicalExam: {
-          headNeck: 'C-spine tenderness present upon palpation; no tracheal deviation',
-          chest: 'Unequal chest rise; diminished breath sounds on right side with crepitus',
-          abdomen: 'Soft, non-distended, non-tender to light palpation',
-          pelvis: 'Stable to gentle inward-downward compression',
-          extremities: 'Deformity noted matching mechanism; distal pulses intact x 4',
-          backSpine: 'No palpable deformities or step-offs'
-        },
-        sampleHistory: {
-          signsSymptoms: 'Severe localized pain, dyspnea, nausea',
-          allergies: 'No known drug allergies (NKDA)',
-          medications: 'None',
-          pastHistory: 'Healthy, no prior cardiopulmonary history',
-          lastOralIntake: 'Energy bar and water 2 hours ago',
-          eventsLeading: skeleton.mechanism
-        }
-      },
-      scoringRubric: {
-        mustDo: skeleton.pathology.mustDo,
-        criticalFails: skeleton.pathology.criticalFails
-      }
-    };
-    initializeScenarioWithCard(card);
-  };
+
 
   const initializeScenarioWithCard = (card: ScenarioCard) => {
     setScenario(card);
@@ -183,9 +132,6 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
       }
     ]);
   };
-
-  // Start initial scenario on load
-  // Removed auto-generation on mount
 
   // Parse discovered vitals from LLM assistant text
   const parseDiscoveredVitals = (text: string) => {
@@ -410,15 +356,7 @@ export const SceneSimulator: React.FC<{ onOpenSettings: () => void }> = ({ onOpe
               {errorMessage ? 'Retry Generation' : 'Begin Patrol Session'}
             </button>
 
-            <button
-              onClick={() => {
-                setErrorMessage(null);
-                initializeOfflineScenario(getRandomScenarioSkeleton());
-              }}
-              className="px-4 py-3 bg-slate-900 text-white border border-slate-700 rounded-xl text-xs sm:text-sm font-medium hover:bg-slate-800 transition shadow-sm active:scale-95"
-            >
-              Play Offline Practice Case
-            </button>
+
           </div>
         </div>
       )}
