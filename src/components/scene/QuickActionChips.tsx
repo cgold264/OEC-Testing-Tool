@@ -11,9 +11,11 @@ export const QuickActionChips: React.FC<QuickActionChipsProps> = ({ onSelectActi
     { label: 'BSI & Scene Safety', text: 'BSI, is my scene safe and what is the mechanism of injury?', icon: Shield },
     { label: 'C-Spine & AVPU', text: 'I hold manual c-spine, check responsiveness (AVPU), and assess airway.', icon: UserCheck },
     { label: 'Full Vitals Check', text: 'I take a full set of vitals: pulse rate/quality, blood pressure, respirations, SpO2, and skin signs.', icon: Activity },
+    { label: 'Check Cranium & Spine', text: 'I palpate the cranium, neck, and posterior spine for DCAP-BTLS, step-offs, and tenderness.', icon: UserCheck },
     { label: 'Expose & Chest Exam', text: 'I expose and inspect the chest, palpating for DCAP-BTLS and auscultating breath sounds.', icon: Stethoscope },
+    { label: 'Palpate Abdomen', text: 'I palpate all four quadrants of the abdomen checking for rigidity, tenderness, and guarding.', icon: Heart },
+    { label: 'Check Extremities', text: 'I palpate the arms and legs for DCAP-BTLS, and check CSMs (circulation, sensation, motor) in all four extremities.', icon: AlertCircle },
     { label: 'SAMPLE History', text: 'I ask the patient for their SAMPLE history (Signs/Symptoms, Allergies, Meds, Pertinent history, Last intake, Events).', icon: Heart },
-    { label: 'Check Distal CSM x 4', text: 'I check circulation, sensation, and motor function (CSM) in all four extremities.', icon: AlertCircle },
     { label: 'Package & Call Transport', text: 'I initiate spinal motion restriction, package the patient in a vacuum mattress/toboggan, and request urgent ALS transport.', icon: PackageCheck }
   ];
 

@@ -136,6 +136,7 @@ FACILITATOR OPERATING RULES:
    - PATIENT INTERACTION: If they speak to the patient, respond in dialogue quotes matching the patient demeanor: "Patient: '...'".
 2. CONCISE & CLINICAL: Keep answers crisp (1-3 sentences). Do not lecture, over-explain, or give hints.
 3. ADHERE TO OEC PROTOCOLS: Reward BSI, manual c-spine stabilization, primary CAB/ABCDE, secondary DCAP-BTLS, and appropriate packaging/transport decisions.
+4. STRICT OEC SCOPE OF PRACTICE: The candidate is a basic life support (BLS) OEC Technician, NOT a paramedic or doctor. DO NOT require, suggest, or allow ALS interventions (e.g., needle thoracostomy / chest decompression, intubation, IV/IO fluids, pushing cardiac meds other than assisting with nitro/aspirin/epi-pen). If a patient has a tension pneumothorax, the correct OEC treatment is high-flow oxygen, positioning, and rapid ALS transport, NOT a needle decompression.
 `;
 
     if (isEvaluating) {
