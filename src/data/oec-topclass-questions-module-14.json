@@ -1,0 +1,282 @@
+[
+  {
+    "id": "scraped-q1790954233402-0",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "The most widely used triage categorization system in the world is “ID-ME.” This acronym represents the four specific triage categories used by NATO forces, National Disaster Life Support, public safety agencies, and search and rescue groups. The ID-ME triage categories are:",
+    "options": [
+      "immediate, detain, minimal, and expectant.",
+      "immediate, delayed, minimal, and exceptional.",
+      "immediate, delayed, maximum, and exceptional.",
+      "immediate, delayed, minimal, and expectant."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-1",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Which of the following documents may be used as a medical-legal record for patient care?",
+    "options": [
+      "Supply report, annual budget, insurance carrier",
+      "NSP awards, fund raising awards, snow report",
+      "Field notes of the patroller, patient care report (PCR), incident report forms",
+      "Patrol schedule, automobile insurance certificate, list of surrounding resorts"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-2",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Logistics, one of the four basic functions of an organized avalanche rescue, is primarily concerned with:",
+    "options": [
+      "arranging for extrication of the victims.",
+      "getting the rescuers to the scene.",
+      "caring for the rescuers in the field.",
+      "keeping a log of the search’s activities."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-3",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "At the scene of a multiple-casualty incident, you are presented with a patient who is not breathing. According to the Simple Triage and Rapid Transport (START) system, which of the following actions should you take next?",
+    "options": [
+      "Start assisting ventilation with a BVM.",
+      "Place a black tag on the patient.",
+      "Open the airway.",
+      "Place a red tag on the patient."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-4",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "In the incident command system, the section responsible for maintaining injury, death, and damage documentation as well as maintaining reimbursement records is the:",
+    "options": [
+      "planning section.",
+      "finance/administration section.",
+      "logistics section.",
+      "operations section."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-5",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "The PCR (patient care report) is a legal medical document completed by the OEC technician.  Therefore, good written documentation is important. In the list below, choose the answer that represents the components of a good written case report.",
+    "options": [
+      "Appropriate medical terminology",
+      "Biased with your opinion",
+      "Using only slang spoken on the street and by the skier",
+      "Errors are not a problem."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-6",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "The patient care report (PCR) is best organized and completed by using which of the following methods?",
+    "options": [
+      "SOAP and CHEATED",
+      "SOAP and LATHER",
+      "CHEATED and DISTRACTED",
+      "LIES and CHEATED"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-7",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "A network of specially trained personnel, equipment, facilities, and other resources that respond to medical emergencies—regardless of cause, location, or the patient’s ability to pay—best describes:",
+    "options": [
+      "a public health system.",
+      "a health care system.",
+      "an emergency care system.",
+      "a community wellness program."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-8",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "There is a fight involving approximately 20 bar patrons. Weapons were used, and there are varying degrees and types of injuries. The first person on scene has started assessing a person lying on the floor with blood covering his shirt. Quick assessment reveals him to be breathing at 24 times per minute. Which of the following actions should be done next using the START triage method?",
+    "options": [
+      "Assist ventilation with a BVM.",
+      "Check for a radial pulse or capillary refill.",
+      "Place a yellow tag on his wrist.",
+      "Attend to the next patient."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-9",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Which of the following characteristics is not a characteristic of indirect medical control?",
+    "options": [
+      "Communication by radio",
+      "Common use for “preauthorizing” routine and life-saving procedures",
+      "Provision through the use of protocols",
+      "Use for expediting patient care"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-10",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "On which form would you be most likely to use the SOAP or CHEATED acronyms?",
+    "options": [
+      "Handoff reports",
+      "Annual report",
+      "Patient care report",
+      "NSP application"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-11",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are instructing an OEC class on the handling of a hazmat incident. You are asked where OEC technicians would be assigned if they were assisting at a hazmat scene. Which of the following statements is the appropriate response?",
+    "options": [
+      "“OEC technicians could assist inside of the isolation perimeter.”",
+      "“Because of your OEC training, you would probably be assigned to the cold zone.”",
+      "“Because of your training in this class, you could be assigned to any of the hazard control zones.”",
+      "“OEC technicians do not have the skills required to assist in a HazMat incident.”"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-12",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "In the acronym “START,” the letter “S” stands for:",
+    "options": [
+      "Selective.",
+      "Sophisticated.",
+      "Safe.",
+      "Simple."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-13",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Toxic nerve agents:",
+    "options": [
+      "decrease production of chemical transmitters.",
+      "block stimulation of sensory nerve endings only.",
+      "block stimulation of both sensory and motor nerve endings.",
+      "overstimulate the nerve endings and the central nervous system."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-14",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Which one of the following statements about the Incident Command System is true?",
+    "options": [
+      "Each EMS agency can use its own codes and terms.",
+      "Each individual responder is accountable to two supervisors.",
+      "ICS operates with standardized terminology to avoid confusion.",
+      "There is a separate commander for EMS, fire, and law enforcement personnel."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-15",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "In a HazMat incident, the transition area in which decontamination occurs is known as the:",
+    "options": [
+      "cold zone.",
+      "treatment area.",
+      "transport zone.",
+      "warm zone."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-16",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You overhear a group of EMTs discussing the concept of driving an ambulance with due regard for the safety of others. Which of the following statements indicates that the EMT understands the concept?",
+    "options": [
+      "“When taking a patient to the hospital, I drive as quickly as possible so that I can get back into service for another call.”",
+      "“When approaching an intersection, I wait for all traffic to stop before proceeding through.”",
+      "“When responding to an emergency, I drive as fast as possible so that emergency care can be delivered as quickly as possible.”",
+      "“It is acceptable to take a nonemergency patient to the hospital using lights and siren if dispatch informs me that there is another call waiting.\""
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-17",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "An incident report form is provided by the area’s insurance carrier.  What is the purpose of the incident report form?",
+    "options": [
+      "To collect data concerning only the patient and the circumstances surrounding an incident",
+      "To collect data regarding your opinion of the incident",
+      "To collect data surrounding the patient and incident, gather patient care data, and to communicate medical information to other parties",
+      "To communicate only medical information to other parties"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-18",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Organized under the DHHS, community-based volunteer medical professionals who have agreed to help in the event of a disaster are known as the:",
+    "options": [
+      "Emergency Support Annexes.",
+      "Disaster Medical Assistance Team.",
+      "Medical Reserve Corps.",
+      "National Response Framework."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790954233402-19",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Please select the most effective components that the OEC technician uses in medical documentation and that best represent the primary parts of the assessment and management process.",
+    "options": [
+      "Patient name, history, exam of incident, asking for advice, temperament, involvement, and distractors",
+      "Chief counsel, highest injury, achievement, trail skied, evolution, and deposition",
+      "Chief complaint, history, examination, assessment, treatment, evaluation, and disposition",
+      "Chances taken, history, written exam, attributes, toboggan used, evacuation, and disposition"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  }
+]

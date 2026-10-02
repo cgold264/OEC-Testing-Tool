@@ -1,0 +1,282 @@
+[
+  {
+    "id": "scraped-q1790952146512-0",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are teaching a basic OEC class and need to explain toxins. Which of the following statements is the best description of a toxin?",
+    "options": [
+      "It is usually transmitted by a bite or a sting.",
+      "It is a poison that comes from a chemical.",
+      "It is a poison made by a living creature, including plants and animals.",
+      "It is anything ingested that causes an anaphylactic reaction."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-1",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "The first thing to happen when a person drowns is usually:",
+    "options": [
+      "apnea.",
+      "hyperventilation.",
+      "laryngospasm.",
+      "panic."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-2",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "The body cools itself primarily by:",
+    "options": [
+      "respiration.",
+      "radiation.",
+      "evaporation.",
+      "conduction."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-3",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are accompanying a team of hikers up a high mountain. The next morning, you are summoned to a tent and find one of the climbers confused and complaining of a headache. Patient's airway is patent, and their respirations are 24 per minute. They have no medical history and are in good health until found ill this morning by their friend. Suspicious of high-altitude cerebral edema (HACE), which of the following actions should you take?",
+    "options": [
+      "Provide high-flow oxygen",
+      "Immobilize the patient",
+      "Administer oral glucose",
+      "Insert an oropharyngeal airway"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-4",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "A specific toxin or poisonous secretion of an animal that is usually transmitted by a bite or sting is known as:",
+    "options": [
+      "nettle.",
+      "bullae.",
+      "antigen.",
+      "venom."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-5",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are working at a mountain resort and are presented with a 50-year-old who states that they do not feel well. From your assessment, which of the following findings would seemingly indicate that the patient is being adversely affected by the high altitude?",
+    "options": [
+      "A heart rate of 62 beats per minute",
+      "Vomiting after eating large meals",
+      "A complaint of feeling short of breath on exertion",
+      "An elevated blood glucose level with no history of diabetes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-6",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You need to begin rewarming an unresponsive patient who has a core temperature of 93°F. Which of the following measures would most benefit this patient?",
+    "options": [
+      "Place one extremity at a time into warm water.",
+      "Gently massage the patient’s arms and legs.",
+      "Wrap the patient in several warm blankets.",
+      "Give the patient warm drinks to increase internal body temperature."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-7",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are facilitating a talk on cold emergencies in the backcountry. You are asked when one should attempt to rewarm a hand or foot that is frostbitten. Which of the following statements would be your best response?",
+    "options": [
+      "“Rewarming should take place only when there is no chance that the tissue will refreeze.\"",
+      "“Rewarm the frozen body part if the patient needs to self-evacuate.”",
+      "“You never want to rewarm a frozen body part because doing so can cause additional damage.”",
+      "“Attempt to rewarm a frozen body part only if the person still has some feeling in it.\""
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-8",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You have a 32-year-old patient who just arrived at the aid room on the top of a 9,000-foot peak.  Patient is exhibiting signs of altitude sickness and HAPE. You recognize that the final key to a successful outcome of treatment is to:",
+    "options": [
+      "prevent further body cooling by covering the patient with blankets.",
+      "get the patient to lie down so their symptoms do not worsen.",
+      "start the patient on O2 while waiting for them to be transported.",
+      "recognize the patient’s signs and descend to a lower elevation."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-9",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Your family is planning a ski trip to a resort that is at about 10,000 feet of elevation. You suggest that you spend the first two nights of the trip at a hotel where the elevation is about 6,500 feet. When your children protest that they are in good shape and want to go immediately to the resort, you explain that you are concerned about altitude sickness and:",
+    "options": [
+      "“I’ll see if I can get some medication so that we don’t need to stop over at the lower elevation.”",
+      "“Physical fitness does not necessarily prevent altitude sickness.”",
+      "“Just because you children are fit and don’t need the gradual change doesn’t mean your mom and I don’t need it.”",
+      "“Your mom and I will exercise more before the trip so that maybe we can reduce the delay to one night.”"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-10",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "The cause of an arterial gas embolism (AGE) is:",
+    "options": [
+      "a rapid ascent by a diver.",
+      "diving below 100 feet for longer than 30 minutes.",
+      "a rapid descent by a diver.",
+      "diving below 100 feet."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-11",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Your group of climbers has reached an elevation of 8,500 feet. One of the climbers is increasingly short of breath and now has audible chest congestion. Your party has a limited supply of oxygen, which you immediately apply to the climber at 15 LPM via a nonrebreather mask. Based on your assessment that the climber has HAPE, you recognize that the next necessary treatment is:",
+    "options": [
+      "to get the patient to a physician who can administer dexamethasone.",
+      "a rapid descent of at least 1,500 to 3,000 feet.",
+      "to place the patient in the shock position.",
+      "to administer diuretics such as Diamox to reduce the patient’s pulmonary edema."
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-12",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are at a park with your family when you hear a call for help. There is a teenager who is “sick.” On scene, you find a 16-year-old who is mildly confused. Friends state that they have been playing basketball for most of the morning and afternoon. The temperature is in the 90s, and the humidity is high. The patient’s airway is patent, and their breathing rate is elevated but adequate. Patient's pulse is weak and rapid. Observation of the skin reveals it to be pale, cool, and moist. Which of the following would you do first for this patient?",
+    "options": [
+      "Lay the patient in the shade in a supine position.",
+      "Administer salt tablets by mouth every 15 minutes.",
+      "Lay the patient down in a side-lying position.",
+      "Get some newspaper and fan him vigorously."
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-13",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are working at the first-aid station at the local scout camp. A counselor brings in two young kids that they think were playing in an area where poison oak was found. Which of the following actions would not be a part of your treatment for the possible exposure to poison oak?",
+    "options": [
+      "Putting on non-latex gloves before examining the kids",
+      "Applying a topical cream such as bacitracin to the kids hands and arms",
+      "Washing the kids hands and arms with cool water and soap",
+      "Using a commercial cleanser such as Oak-N-Ivy to wash the kids hands and arms"
+    ],
+    "correctIndex": 1,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-14",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are in the aid room with a patient who is unresponsive and has hot, dry skin. The patient's friends state that the patient has been drinking and passed out in the hot sun for several hours. ALS has been called. Which of the following actions would be most beneficial to this patient now?",
+    "options": [
+      "Try to give the patient sugar because they could be having a diabetic reaction.",
+      "Gently pour cold water over the patient to rapidly cool them down.",
+      "Prepare the patient for vomiting by placing them in a prone position.",
+      "Place cold packs on the patient’s groin and armpits."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-15",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "The main cause of afterdrop is probably:",
+    "options": [
+      "loss of fat.",
+      "strong winds.",
+      "remaining wet.",
+      "the return of cold blood from the extremities."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-16",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "During assessment of the water-related emergency for any submersion injury, care should be taken to:",
+    "options": [
+      "assess the airway but not to treat the patient.",
+      "assess the water temperature.",
+      "protect the patient’s spine to prevent additional neurological injury.",
+      "use AEIOU TIPS."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-17",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "A patient at a mountain ski resort has notable shortness of breath. They deny any past medical history and take no medications. After applying oxygen, you realize that the fundamental treatment to helping this patient improve is to:",
+    "options": [
+      "administer a respiratory medication by a metered-dose inhaler.",
+      "position patient in a left lateral recumbent position.",
+      "descend to a lower altitude.",
+      "place patient in a supine position with their legs elevated."
+    ],
+    "correctIndex": 2,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-18",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "Which of the following processes does not occur during acclimatization?",
+    "options": [
+      "Dilation of pulmonary blood vessels",
+      "An increase in heart rate",
+      "An increase in red blood cell production",
+      "An increase in respiratory rate and depth"
+    ],
+    "correctIndex": 0,
+    "explanation": "Official OEC assessment question."
+  },
+  {
+    "id": "scraped-q1790952146512-19",
+    "chapter": 1,
+    "domain": "Uncategorized",
+    "question": "You are with a group of hikers on the third day of an 11,000-foot mountain ascent. One of the hikers has not been feeling well for a couple of days. Today, members of the group notice that he is having difficulty getting dressed and speaking. From your training in outdoor emergency care, you recognize that these signs and symptoms are most often associated with:",
+    "options": [
+      "acute mountain sickness.",
+      "frostbite.",
+      "peripheral neuropathy.",
+      "HACE."
+    ],
+    "correctIndex": 3,
+    "explanation": "Official OEC assessment question."
+  }
+]

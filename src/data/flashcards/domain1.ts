@@ -177,6 +177,7 @@ export const DOMAIN_1_FLASHCARDS: Flashcard[] = [
     "back": "The failure to exercise the care that a reasonably prudent person with similar training would exercise in a similar circumstance.",
     "tags": ["key-term", "legal", "negligence", "ch1"]
   },
+
   {
     "id": "kt-ch1-27",
     "chapter": 1,
@@ -184,22 +185,6 @@ export const DOMAIN_1_FLASHCARDS: Flashcard[] = [
     "front": "Standard of care",
     "back": "A level of care an OEC technician must render based on OEC training, local medical protocols, and the requirements of a state's EMS system.",
     "tags": ["key-term", "legal", "oec", "ch1"]
-  },
-  {
-    "id": "kt-ch1-28",
-    "chapter": 1,
-    "domain": "Domain 1: Foundations & Assessment",
-    "front": "Standard of training",
-    "back": "The training of National Ski Patrol OEC technicians as set forth in the OEC course, using this text as a reference.",
-    "tags": ["key-term", "oec", "training", "ch1"]
-  },
-  {
-    "id": "kt-ch1-29",
-    "chapter": 1,
-    "domain": "Domain 1: Foundations & Assessment",
-    "front": "Winter Emergency Care",
-    "back": "A textbook, developed by Dr. Warren Bowman, that was the precursor to the Outdoor Emergency Care text.",
-    "tags": ["key-term", "oec", "history", "ch1"]
   },
   {
     "id": "kt-ch2-01",
